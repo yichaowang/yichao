@@ -1,0 +1,54 @@
+body{
+	background: url('../images/bg-main.jpg') 0 0 repeat;
+}
+
+div#wrapper{
+	width:960px;
+	margin:100px auto;
+	text-align:center;
+}
+
+h1{
+	font-family: 'Swanky and Moo Moo', cursive;
+	color:#eee;
+	font-size:26px;
+	line-height:3em;	
+}
+
+h2{
+	font-family: 'Open Sans', sans-serif;
+	color:#eee;
+	font-size:11px;
+	letter-spacing:3px;
+	word-spacing:2px;
+}
+
+hr{
+	margin:0 auto;
+	border:none; 
+	border-top:1px rgba(20,20,20,0.3) solid;
+}
+
+/*
+	Misc
+*/      
+
+.blue {
+	color: #479ce5;
+}
+
+.w400{
+	width:400px;
+}
+
+.construction{
+	background:url('../images/icon-cone.png') top no-repeat;
+	margin-top:100px;
+	padding-top:75px;
+	font-family: 'Open Sans', sans-serif;
+	font-style:italic;
+	color:#eee;
+	font-size:12px;
+}
+
+
