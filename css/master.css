@@ -1,54 +1,78 @@
+@import url(reset.css);
+@import url(960.css);
+
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{
+    display:block
+}
+
+html{
+    font-size:100%;
+    overflow-y:scroll;
+    -webkit-text-size-adjust:100%;
+    -ms-text-size-adjust:100%
+} 
+
+@font-face{
+    font-family:'Museo500';
+    src: url('fonts/Museo500.eot');
+    src: url('fonts/Museo500.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Museo500.woff') format('woff'),
+         url('fonts/Museo500.ttf') format('truetype');
+    font-weight:normal;
+    font-style:normal
+} 
+
+@font-face{
+    font-family:'Museo300';
+    src: url('fonts/Museo300.eot');
+    src: url('fonts/Museo300.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Museo300.woff') format('woff'),
+         url('fonts/Museo300.ttf') format('truetype');
+    font-weight:normal;
+    font-style:normal
+}               
+
 body{
-	background: url('../images/bg-main.jpg') 0 0 repeat;
+    margin:0;
+    font-size:13px;
+    line-height:1.231;
+}  
+
+body,button,input,select,textarea{
+    font-family:sans-serif;
+    color:#222
+}              
+
+::-moz-selection{
+    background:#fe57a1;
+    color:#fff;
+    text-shadow:none
+}     
+
+::selection{
+    background:#fe57a1;
+    color:#fff;
+    text-shadow:none
 }
 
-div#wrapper{
-	width:960px;
-	margin:100px auto;
-	text-align:center;
-}
-
-h1{
-	font-family: 'Swanky and Moo Moo', cursive;
-	color:#eee;
-	font-size:26px;
-	line-height:3em;	
-}
-
-h2{
-	font-family: 'Open Sans', sans-serif;
-	color:#eee;
-	font-size:11px;
-	letter-spacing:3px;
-	word-spacing:2px;
-}
-
-hr{
-	margin:0 auto;
-	border:none; 
-	border-top:1px rgba(20,20,20,0.3) solid;
-}
 
 /*
-	Misc
-*/      
+    Index
+*/       
 
-.blue {
-	color: #479ce5;
-}
+h1{
+    font-size:32px;
+    font-family: 'Museo500', sans-serif;
+}                        
 
-.w400{
-	width:400px;
+h2{
+    font-size:32px;
+    font-family: 'Museo300', sans-serif;
 }
+                  
 
-.construction{
-	background:url('../images/icon-cone.png') top no-repeat;
-	margin-top:100px;
-	padding-top:75px;
-	font-family: 'Open Sans', sans-serif;
-	font-style:italic;
-	color:#eee;
-	font-size:12px;
-}
+
+
+
 
 

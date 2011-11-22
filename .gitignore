@@ -1,2 +1,6 @@
 /Colorlayout/
 /blog/
+/cgi-bin/
+/temp/
+/extra/
+.htaccess
