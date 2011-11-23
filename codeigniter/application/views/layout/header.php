@@ -7,10 +7,18 @@
 			</hgroup>
 			<nav>
 				<ul>
-					<li>ABOUT</li>
-					<li>PORTFOLIO</li>
-					<li>RESUME</li>
-					<li>CONTACT</li>
+					<li>
+						<a>ABOUT</a>
+					</li>
+					<li>
+						<a>PORTFOLIO</a>
+					</li>
+					<li>
+						<a>RESUME</a>
+					</li>
+					<li>
+						<a>CONTACT</a>
+					</li>
 				</ul>
 			</nav>
 		</div>

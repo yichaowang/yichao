@@ -1,8 +1,6 @@
 			<footer>
 				<div class="container_12">
-					<div class="grid_12">
-						This is the footer.
-					</div>
+					<div class="grid_12">© Yichao Wang</div>
 				</div>
 			</footer>
 		</div>

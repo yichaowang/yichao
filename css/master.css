@@ -30,7 +30,17 @@ html{
          url('fonts/Museo300.ttf') format('truetype');
     font-weight:normal;
     font-style:normal
-}               
+} 
+
+@font-face{
+    font-family:'OpenSans';
+    src: url('fonts/OpenSans.eot');
+    src: url('fonts/OpenSans.eot?#iefix') format('embedded-opentype'),
+         url('fonts/OpenSans.woff') format('woff'),
+         url('fonts/OpenSans.ttf') format('truetype');
+    font-weight:normal;
+    font-style:normal
+}              
 
 body{
     margin:0;
@@ -39,14 +49,24 @@ body{
 }  
 
 body,button,input,select,textarea{
-    font-family:sans-serif;
-    color:#222
+    font-family:'OpenSans', sans-serif;
+    color:#303030
 }       
 
 h1,h2,h3,h4,h5,h6,p{
     display:block;
     font-weight:normal
 }       
+
+a{
+    text-decoration:none;
+    color:#0088cc;
+}
+
+a:hover{
+    text-decoration:underline;
+    cursor:pointer;
+}
 
 ::-moz-selection{
     background:#fe57a1;
@@ -58,12 +78,7 @@ h1,h2,h3,h4,h5,h6,p{
     background:#fe57a1;
     color:#fff;
     text-shadow:none
-}
-
-
-/*
-    Index
-*/         
+}         
 
 header#navi{
     position:fixed;
@@ -75,7 +90,7 @@ header#navi{
     border-bottom:1px solid #fff;
     width:100%; 
     color:#303030;
-    font-family: 'Museo300', sans-serif;
+    font-family: 'Museo500', sans-serif;
 }       
 
 header hgroup{
@@ -84,6 +99,7 @@ header hgroup{
 
 header#navi h1{
     font-size:30px;
+    font-family: 'Museo300', sans-serif;
 }                        
 
 header#navi h2{
@@ -92,7 +108,6 @@ header#navi h2{
 }      
 
 header#navi nav{
-    font-family: 'Museo500', sans-serif;
     font-size:14px;
     float:right;
     padding-top:15px;
@@ -106,7 +121,41 @@ header#navi nav li{
 }    
 
 div#main{
-    padding-top:200px;
+    padding-top:100px;
+}  
+
+section#intro hgroup{
+    font-family: 'Museo500', sans-serif;
+    padding-top:60px;
+}  
+
+section#intro h1{
+    font-size:65px;
+    color:#0088cc;
+    padding-bottom:10px;
+}                
+
+section#intro h2{
+    font-size:35px;
+    padding-bottom:25px;
+} 
+
+section#intro a{
+    font-size:18px;
+}
+
+footer{
+    font-weight:normal;
+    position:fixed;
+    height:60px;
+    bottom:0;
+    left:0;
+    z-index:10000;
+    padding:15px 0 0 0;
+    font-size:11px;
+    width:100%;
+    background-color:#303030; 
+    color:#fff;
 }
 
                   
