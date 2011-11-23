@@ -6,4 +6,8 @@ header#navi{
     width:100%; 
     color:#303030;
     font-family: 'Museo500', sans-serif;
+} 
+
+div#main{
+    padding-top:0px;
 }
