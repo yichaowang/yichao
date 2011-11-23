@@ -14,6 +14,9 @@
 		    document.createElement(e[i]);
 		  }
 		</script>
+	<![endif]--> 
+	<!--[if lte IE 6]>
+	        <link rel="stylesheet" type="text/css" href="lte-ie6.css" />
 	<![endif]-->
 	<script type="text/javascript" src="/js/master.js"></script>
 </head>
