@@ -89,6 +89,7 @@ header#navi{
     padding:20px 0;
     width:100%; 
     color:#303030;
+    background-color:#fff;
     font-family: 'Museo500', sans-serif;
 }       
 
@@ -125,7 +126,7 @@ div#main{
 
 section#intro hgroup{
     font-family: 'Museo500', sans-serif;
-    padding-top:60px;
+    padding-top:40px;
 }  
 
 section#intro h1{
