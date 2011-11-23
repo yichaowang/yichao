@@ -1,10 +1,18 @@
-<!doctype html>
-<html>
-<head>
-	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
-	<meta name="description" content="The online portfolio of Yichao Wang, Web Developer and Interactive Designer." />
-	<title>Yichao</title> 
-	<link rel="stylesheet" href="/css/master.css" type="text/css" media="screen">
-	<script type="text/javascript" src="/js/master.js"></script>
-</head>
-<body>
+<header id="navi">
+	<div class="container_12">
+		<div class="grid_12">
+			<hgroup>
+				<h1>Yichao Wang</h1>
+				<h2>web developer / interactive designer.</h2>	
+			</hgroup>
+			<nav>
+				<ul>
+					<li>ABOUT</li>
+					<li>PORTFOLIO</li>
+					<li>RESUME</li>
+					<li>CONTACT</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</header>

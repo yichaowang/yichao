@@ -41,7 +41,12 @@ body{
 body,button,input,select,textarea{
     font-family:sans-serif;
     color:#222
-}              
+}       
+
+h1,h2,h3,h4,h5,h6,p{
+    display:block;
+    font-weight:normal
+}       
 
 ::-moz-selection{
     background:#fe57a1;
@@ -58,17 +63,52 @@ body,button,input,select,textarea{
 
 /*
     Index
-*/       
+*/         
 
-h1{
-    font-size:32px;
-    font-family: 'Museo500', sans-serif;
+header#navi{
+    position:fixed;
+    height:75px;
+    top:0;
+    left:0;
+    z-index:10000;
+    padding:20px 0;
+    border-bottom:1px solid #fff;
+    width:100%; 
+    color:#303030;
+    font-family: 'Museo300', sans-serif;
+}       
+
+header hgroup{
+    float:left;
+}   
+
+header#navi h1{
+    font-size:30px;
 }                        
 
-h2{
-    font-size:32px;
-    font-family: 'Museo300', sans-serif;
+header#navi h2{
+    font-size:13px;
+    color:#08c;
+}      
+
+header#navi nav{
+    font-family: 'Museo500', sans-serif;
+    font-size:14px;
+    float:right;
+    padding-top:15px;
+    
+}   
+
+header#navi nav li{
+    display:block;
+    padding-right:20px;
+    float:left;
+}    
+
+div#main{
+    padding-top:200px;
 }
+
                   
 
 

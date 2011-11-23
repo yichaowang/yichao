@@ -8,8 +8,5 @@
 	<script type="text/javascript" src="/js/master.js"></script>
 </head>
 <body>
-    <div id="container">
-    	
-    </div>
-</body>        
-</html>
+	<div id="container">
+	<?php include('header.php') ?>	
