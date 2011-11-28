@@ -148,7 +148,7 @@ div#main-mask{
 } 
 
 
-div#main-mask > article{
+div#main-mask article{
     width:960px;
     float:left;
 } 
