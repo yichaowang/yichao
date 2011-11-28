@@ -14,4 +14,8 @@ div#main{
 
 section#intro hgroup{
     padding-top:10px;
-}
+}   
+
+/*
+    div#main > article  no IE 6 support
+*/

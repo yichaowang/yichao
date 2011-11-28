@@ -48,7 +48,7 @@ body{
     line-height:1.231;
 }  
 
-body,button,input,select,textarea{
+body,button,input,select,textarea,p{
     font-family:'OpenSans', sans-serif;
     color:#303030
 }       
@@ -78,11 +78,13 @@ a:hover{
     background:#fe57a1;
     color:#fff;
     text-shadow:none
-}         
+} 
+/*  end universal                        */   
 
+/*  beigin header & glb navigation      */
 header#navi{
     position:fixed;
-    height:75px;
+    height:50px;
     top:0;
     left:0;
     z-index:10000;
@@ -118,36 +120,90 @@ header#navi nav li{
     display:block;
     padding-right:20px;
     float:left;
-}    
+}      
 
+header#navi nav a{
+    color:#303030;
+}
+
+header#navi nav a:hover{
+    text-decoration:none;
+}
+/*  end header                  */ 
+
+/*  begin main                  */     
 div#main{
-    padding-top:100px;
-}  
+    position:relative;
+    padding-top:90px;
+    margin:0 auto;
+    width:960px;
+    height:500px;
+    overflow:hidden;
+} 
 
-section#intro hgroup{
+div#main-mask{
+    position:absolute;
+    width:3000px;
+    left:-960px;
+} 
+
+
+div#main-mask > article{
+    width:960px;
+    float:left;
+} 
+/*  end main*/
+
+/*  begin article universal     */ 
+article section.intro header{
+    margin-top:40px;
+}
+
+article section.intro header h1{
     font-family: 'Museo500', sans-serif;
-    padding-top:40px;
+    font-size:35px;
+    color:#303030;
+    padding-bottom:23px;
+} 
+
+article section.intro header em{
+    font-style:normal;
+    color:#08c;
+}
+/*  end article universal       */
+
+/*  begin intro article*/
+article#site-intro hgroup{
+    font-family: 'Museo500', sans-serif;
+    padding-top:60px;
 }  
 
-section#intro h1{
+article#site-intro h1{
     font-size:65px;
     color:#0088cc;
     padding-bottom:10px;
 }                
 
-section#intro h2{
+article#site-intro h2{
     font-size:35px;
     padding-bottom:25px;
 } 
 
-section#intro a{
+article#site-intro a{
     font-size:18px;
+} 
+/*  end intro article   */
+
+/*  start rbc artocle   */
+article#rbc section.intro{
+    padding-top:50px;
 }
 
 footer{
     font-weight:normal;
     position:fixed;
-    height:60px;
+/*    height:60px;*/
+    height:40px;
     bottom:0;
     left:0;
     z-index:10000;
