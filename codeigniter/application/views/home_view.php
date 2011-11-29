@@ -27,10 +27,26 @@
 				</section>
 			</div>
 		</article>
-		<article id="msuasa" class="portfolio">
 		
-		</article> 
-	</div> 
+		<article id="rbc" class="portfolio">
+			<div class="container_16">
+				<section class="intro">
+					<header class="grid_6">
+						<h1>Clean. Simple. Professional.<br><em>Delivered.</em></h1>
+						<p>Michigan State University Accounting Student Association is the biggest student organization in the Eli Broad Business College. The student organization need a clean and simple website that reflect its professional nature.</p>
+					</header>
+					<figure class="grid_10">
+						<img src="/images/graphic_rbc_intro.png" alt="rbc image"/>
+					</figure>
+					<div class="clear"></div>
+				</section>
+				<section class="detail grid_16">
+
+				</section>
+			</div>
+		</article>
+	</div>
+	<div id="blink-slider"></div>
 	<div class="clearfix"></div>
 </div>
 <?php include('layout/footer.php') ?>

@@ -3,7 +3,7 @@
 		<div class="grid_12">
 			<hgroup>
 				<h1>Yichao Wang</h1>
-				<h2>web developer / interactive designer.</h2>	
+				<h2>web developer.</h2>	
 			</hgroup>
 			<nav>
 				<ul>

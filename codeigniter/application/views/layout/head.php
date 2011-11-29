@@ -19,6 +19,8 @@
 	<!--[if lte IE 6]>
 	        <link rel="stylesheet" type="text/css" href="/css/lte-ie6.css" />
 	<![endif]-->
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script> 
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
 	<script type="text/javascript" src="/js/master.js"></script>
 </head>
 <body>
