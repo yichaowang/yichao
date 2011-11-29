@@ -161,6 +161,7 @@ div#blink-slider-activator{
     width:960px;
     height:200px;
     bottom:0px;
+    z-index:100;
 }
 
 div#blink-slider{
