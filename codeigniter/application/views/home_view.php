@@ -46,7 +46,9 @@
 			</div>
 		</article>
 	</div>
-	<div id="blink-slider"></div>
+	<div id="blink-slider-activator">
+		<div id="blink-slider"></div>
+	</div>
 	<div class="clearfix"></div>
 </div>
 <?php include('layout/footer.php') ?>

@@ -21,6 +21,17 @@ YC.blink = {
     },
     setSlider: function(){
         $('#blink-slider').slider({animate: true});
+        $('#blink-slider-activator').bind({
+            mouseenter: function(){
+                $(this).children().animate({'height':'16px'},300);
+                $(this).children().find('.ui-slider-handle').animate({'height':'16px'},300);
+            },
+            mouseleave: function(){
+                $(this).children().animate({'height':'3px'},300);
+                $(this).children().find('.ui-slider-handle').animate({'height':'3px'},300);
+            }
+        });
+        
     }
 } 
 

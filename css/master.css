@@ -155,16 +155,24 @@ div#main-mask article{
 } 
 /*  end main*/ 
 
-/*  begin blink slider      */
+/*  begin blink slider      */ 
+div#blink-slider-activator{
+    position:absolute;
+    width:960px;
+    height:200px;
+    bottom:0px;
+}
+
 div#blink-slider{
     position:absolute;
     width:500px; 
     left:230px;
-    top:85%;
+    top:60%;
     height:3px;
     -webkit-border-radius: 0px;
     -khtml-border-radius: 0px;
     border-radius: 0px;
+    cursor:pointer;
 }
 
 div#blink-slider.ui-widget-content{ 
