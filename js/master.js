@@ -23,12 +23,10 @@ YC.blink = {
         $('#blink-slider').slider({animate: true});
         $('#blink-slider-activator').bind({
             mouseover: function(){
-                console.log('asdfasdf');
                 $(this).children().stop(true, true).animate({'height':'16px'},300);
                 $(this).children().find('.ui-slider-handle').stop(true, true).animate({'height':'16px'},300);
             },
-            mouseout: function(){
-                console.log('asdfasdf');
+            mouseleave: function(){ 
                 $(this).children().stop(true, true).animate({'height':'3px'},300);
                 $(this).children().find('.ui-slider-handle').stop(true, true).animate({'height':'3px'},300);
             }
