@@ -23,12 +23,14 @@ YC.blink = {
         $('#blink-slider').slider({animate: true});
         $('#blink-slider-activator').bind({
             mouseenter: function(){
-                $(this).children().animate({'height':'16px'},300);
-                $(this).children().find('.ui-slider-handle').animate({'height':'16px'},300);
+                console.log('asdfasdf');
+                $(this).children().stop(true, true).animate({'height':'16px'},300);
+                $(this).children().find('.ui-slider-handle').stop(true, true).animate({'height':'16px'},300);
             },
             mouseleave: function(){
-                $(this).children().animate({'height':'3px'},300);
-                $(this).children().find('.ui-slider-handle').animate({'height':'3px'},300);
+                console.log('asdfasdf');
+                $(this).children().stop(true, true).animate({'height':'3px'},300);
+                $(this).children().find('.ui-slider-handle').stop(true, true).animate({'height':'3px'},300);
             }
         });
         
