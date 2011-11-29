@@ -23,14 +23,14 @@ YC.blink = {
         $('#blink-slider').slider({animate: true});
         $('#blink-slider-activator').bind({
             mouseover: function(){
-                $(this).children().stop(true, true).animate({'height':'16px'},300);
-                $(this).children().find('.ui-slider-handle').stop(true, true).animate({'height':'16px'},300);
+                $(this).children().stop(true).animate({'height':'16px'},300);
+                $(this).children().find('.ui-slider-handle').stop(true).animate({'height':'16px'},300);
             },
             mouseleave: function(){
                 $(document).bind('mousemove',function(e){ 
                     if (e.pageY > 550 || e.pageY < 400 ){
-                        $('#blink-slider-activator').children().stop(true, true).animate({'height':'3px'},300);
-                        $('#blink-slider-activator').children().find('.ui-slider-handle').stop(true, true).animate({'height':'3px'},300);
+                        $('#blink-slider-activator').children().stop(true).animate({'height':'3px'},300);
+                        $('#blink-slider-activator').children().find('.ui-slider-handle').stop(true).animate({'height':'3px'},300);
                         $(document).unbind('mousemove');
                     }
                 });
