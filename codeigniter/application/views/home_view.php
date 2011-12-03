@@ -47,7 +47,9 @@
 		</article>
 	</div>
 	<div id="blink-slider-activator">
-		<div id="blink-slider"></div>
+		<div id="blink-slider-wrapper">
+		   	<div id="blink-slider"></div>
+		</div>
 	</div>
 	<div class="clearfix"></div>
 </div>

@@ -144,7 +144,7 @@ div#main{
 
 div#main-mask{
     position:absolute;
-    width:3000px;
+    width:2880px;
     left:-1920px;
 } 
 
@@ -162,24 +162,33 @@ div#blink-slider-activator{
     height:200px;
     bottom:0px;
     z-index:100;
-}
+}    
 
-div#blink-slider{
-    position:absolute;
+div#blink-slider-wrapper{
     width:500px; 
+    position:absolute;
     left:230px;
     top:60%;
+    border:1px solid #ededed;
+    background-image:none;
+    background-color:#f6f6f6;
+}
+
+
+div#blink-slider{
+    width:430px;
+    margin:0 auto;
     height:3px;
     -webkit-border-radius: 0px;
     -khtml-border-radius: 0px;
     border-radius: 0px;
     cursor:pointer;
+    overflow:visible !important;
 }
 
 div#blink-slider.ui-widget-content{ 
-    border:1px solid #ededed;
-    background-image:none;
-    background-color:#f6f6f6;
+    border:none;
+    background:none;
 }
  
 div#blink-slider .ui-slider-handle{
@@ -189,7 +198,7 @@ div#blink-slider .ui-slider-handle{
     -khtml-border-radius: 0px;
     border-radius: 0px;
     top:0px;
-    margin-left:0px;
+    margin-left:-35px;
 } 
 
 div#blink-slider .ui-state-default{

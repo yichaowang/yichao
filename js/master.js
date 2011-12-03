@@ -17,26 +17,40 @@ YC = {
 
 YC.blink = {
     init: function(){
+        this._self = $('#blink-slider');
+        this.content = $('#main-mask');
+        this.content_width = $('#main-mask').width();
         this.setSlider();
-    },
+    },                                 
     setSlider: function(){
-        $('#blink-slider').slider({animate: true});
         $('#blink-slider-activator').bind({
             mouseover: function(){
-                $(this).children().stop(true).animate({'height':'16px'},300);
-                $(this).children().find('.ui-slider-handle').stop(true).animate({'height':'16px'},300);
+                $(this).find('#blink-slider').stop(true).animate({'height':'12px'},300);
+                $(this).find('.ui-slider-handle').stop(true).animate({'height':'12px'},300);
             },
             mouseleave: function(){
                 $(document).bind('mousemove',function(e){ 
                     if (e.pageY > 550 || e.pageY < 400 ){
-                        $('#blink-slider-activator').children().stop(true).animate({'height':'3px'},300);
-                        $('#blink-slider-activator').children().find('.ui-slider-handle').stop(true).animate({'height':'3px'},300);
+                        $('#blink-slider-activator').find('#blink-slider').stop(true).animate({'height':'3px'},300);
+                        $('#blink-slider-activator').find('.ui-slider-handle').stop(true).animate({'height':'3px'},300);
                         $(document).unbind('mousemove');
                     }
                 });
             }
         });
         
+        this._self.slider({
+            animate: true,
+            min:0,
+            max:(this.content_width - 960),
+            slide: function(event, ui){
+                YC.blink.content.stop(1).animate({"left": (-1)*ui.value},300);
+            },
+            stop: function(event, ui){
+                YC.blink._self.slider('value', Math.round(ui.value/960)*960); 
+                YC.blink.content.stop(1).animate( {"left":(-1)*YC.blink._self.slider('value')},3000,'easeOutExpo')
+            }
+        });                    
     }
 } 
 
