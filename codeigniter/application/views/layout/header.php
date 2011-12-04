@@ -8,13 +8,16 @@
 			<nav>
 				<ul>
 					<li>
-						<a>ABOUT</a>
+						<a>Home</a>
 					</li>
 					<li>
-						<a>PORTFOLIO</a>
+						<a class='active'>PORTFOLIO</a>
 					</li>
 					<li>
 						<a>RESUME</a>
+					</li>
+					<li>
+						<a>ABOUT</a>
 					</li>
 					<li>
 						<a>CONTACT</a>

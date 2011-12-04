@@ -9,7 +9,8 @@
 					<a href="#">Please Check Out Some of My Works.</a>
 				</hgroup>	
 			</div>
-		</article>
+		</article>      
+		
 		<article id="rbc" class="portfolio">
 			<div class="container_16">
 				<section class="intro">
@@ -28,7 +29,7 @@
 			</div>
 		</article>
 		
-		<article id="rbc" class="portfolio">
+		<article id="msuasa" class="portfolio">
 			<div class="container_16">
 				<section class="intro">
 					<header class="grid_6">
@@ -38,6 +39,21 @@
 					<figure class="grid_10">
 						<img src="/images/graphic_rbc_intro.png" alt="rbc image"/>
 					</figure>
+					<div class="clear"></div>
+				</section>
+				<section class="detail grid_16">
+
+				</section>
+			</div>
+		</article>
+		
+		<article id="about" class="about">
+			<div class="container_16">
+				<section class="intro">
+					<header class="grid_6">
+						<h1>About <em>Me.</em></h1>
+						<p>This is the section about me.</p>
+					</header>
 					<div class="clear"></div>
 				</section>
 				<section class="detail grid_16">

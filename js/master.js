@@ -2,11 +2,7 @@ var YC = YC || {};
 
 YC = {
     blink:{},
-	admin:{
-		nav:{},
-		program:{},
-		gallery:{}
-	},
+    navi:{},
 	home:{
 		swapbox:{},
 		gallery:{}
@@ -48,9 +44,60 @@ YC.blink = {
             },
             stop: function(event, ui){
                 YC.blink._self.slider('value', Math.round(ui.value/960)*960); 
-                YC.blink.content.stop(1).animate( {"left":(-1)*YC.blink._self.slider('value')},3000,'easeOutExpo')
+                YC.blink.content.stop(1).animate( {"left":(-1)*YC.blink._self.slider('value')},2000,'easeOutExpo')
             }
         });                    
+    }
+}
+
+YC.navi = {
+    init: function(){
+        this._self = $('header#navi');
+        this.content = $('#main-mask');
+        this.setAppearance();
+        this.refreshActive();
+        this.landingFlash();
+    },                      
+    
+    setAppearance: function(){
+        this._self.find('li a').bind({
+            mouseenter:function(){
+                if ($(this).attr('class')=='active') return false;  
+                $(this).stop(1).animate({'color':'#fff', 'background-color':'#0cf'},700)
+            },
+            mouseleave:function(){
+                if ($(this).attr('class')=='active') return false;  
+                $(this).stop(1).animate({'color':'#303030', 'background-color':'#fff'},700)
+            }
+        })
+    },
+    
+    refreshActive: function(){
+        this.content.bind({
+            change: function(){
+                console.log(this.content.left());
+            }
+        })
+    },
+    
+    landingFlash: function(){
+        setTimeout(function(){
+            YC.navi._self.find('li a').each(function(i){
+                var ele = this;
+                setTimeout(function(){
+                    $(ele).mouseenter();
+                },i*50);
+            });
+        },1000); 
+        
+        setTimeout(function(){
+            YC.navi._self.find('li a').each(function(i){
+                var ele = this;
+                setTimeout(function(){
+                    $(ele).mouseleave();
+                },i*50);
+            });
+        },1200);
     }
 } 
 
@@ -75,5 +122,6 @@ YC.footer = {
 
 $(document).ready(function() {
     YC.blink.init();
+    YC.navi.init();
     YC.footer.init();
 })  

@@ -119,12 +119,20 @@ header#navi nav{
 
 header#navi nav li{
     display:block;
-    padding-right:20px;
+    padding-right:5px;
     float:left;
 }      
 
 header#navi nav a{
+    display:block;
+    margin-top:-50px;
+    padding:50px 5px 5px 5px;
     color:#303030;
+}
+
+header#navi nav a.active{
+    color:#fff;
+    background-color:#08c;
 }
 
 header#navi nav a:hover{
@@ -144,8 +152,8 @@ div#main{
 
 div#main-mask{
     position:absolute;
-    width:2880px;
-    left:-1920px;
+    width:3840px;
+    left:0px;
 } 
 
 
