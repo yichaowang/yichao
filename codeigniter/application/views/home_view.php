@@ -22,12 +22,20 @@
 						<p>Renewal Body Bootcamp is a boutique gym with customer mainly from the city. The new business has a series of specialty classes with specific measurement.</p>
 					</header>
 					<figure class="grid_10">
-						<img src="/images/graphic_rbc_intro.png" alt="rbc image"/>
+						<img src="/images/graphic_rbc_intro.png" alt="graphic"/>
 					</figure>
 					<div class="clear"></div>
 				</section>
-				<section class="detail grid_16">
-
+				<section class="detail">
+                	<header class="grid_16">
+                		<h1>User Friendly Back End.</h1>
+                	</header>
+					<div class="clear"></div>
+					<div class="grid_4">
+						<h1>Everything Asynchronous/JSON Nicely</h1>
+						<p>Jen needed a way to manage each class's measurements sequence and attributes that will be showed on the client's progress tab when they login. Each measurement have name, value, and unit attribute. A drag and drop sortable list made changing sequence a piece of cake on her end. She is able to edit measurement attribute simply by click the text. In addition, each action she performs will also recursively update all the exist student that currently is enrolled in the program.</p>
+						<img src="/images/graphic_rbc_backend_asyjson.png" alt="graphic">
+					</div>
 				</section>
 			</div>
 		</article>

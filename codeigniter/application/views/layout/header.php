@@ -1,6 +1,6 @@
-<header id="navi">
+<header id="navi" class="slideshow">
 	<div class="container_12">
-		<div class="grid_12">
+		<div class="navi-wrapper">
 			<hgroup>
 				<h1>Yichao Wang</h1>
 				<h2>web developer.</h2>	
