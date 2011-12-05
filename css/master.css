@@ -167,7 +167,7 @@ div#main-mask article{
 div#blink-slider-activator{
     position:absolute;
     width:960px;
-    height:200px;
+    height:100px;
     bottom:0px;
     z-index:100;
 }    
@@ -176,7 +176,7 @@ div#blink-slider-wrapper{
     width:500px; 
     position:absolute;
     left:230px;
-    top:60%;
+    top:20%;
     border:1px solid #ededed;
     background-image:none;
     background-color:#f6f6f6;
@@ -260,6 +260,20 @@ article#site-intro h2{
 article#site-intro a{
     font-size:18px;
 } 
+
+article#site-intro a:hover{
+    text-decoration:none;
+}          
+
+article#site-intro img.arrow{
+    opacity:0.01;
+    height:40px;
+    width:40px;
+    margin-left:5px;
+    margin-top:-8px;
+    cursor:pointer;
+}
+ 
 /*  end intro article   */
 
 /*  start rbc article   */

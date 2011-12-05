@@ -6,7 +6,10 @@
 				<hgroup class="prefix_2 grid_9">
 				   	<h1>Hello.<br>My Name is Yichao.</h1>
 					<h2>I am a web developer who like to <br>build interactions to make users happy!</h2>
-					<a href="#">Please Check Out Some of My Works.</a>
+					<a class="to_portfolio" href="#">
+						Please Check Out Some of My Works.
+					</a>
+					<img class="arrow" src="/images/icon_arrow_bluecircle.png"/>
 				</hgroup>	
 			</div>
 		</article>      

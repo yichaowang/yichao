@@ -7,19 +7,19 @@
 			</hgroup>
 			<nav>
 				<ul>
-					<li>
+					<li id="nav_home">
 						<a>Home</a>
 					</li>
-					<li>
-						<a class='active'>PORTFOLIO</a>
+					<li id="nav_portfolio">
+						<a>PORTFOLIO</a>
 					</li>
-					<li>
+					<li id="nav_resume">
 						<a>RESUME</a>
 					</li>
-					<li>
+					<li id="nav_about">
 						<a>ABOUT</a>
 					</li>
-					<li>
+					<li id="nav_contact">
 						<a>CONTACT</a>
 					</li>
 				</ul>
