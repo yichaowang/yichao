@@ -155,7 +155,7 @@ YC.arrow = {
         arrow.bind({
             click: function(){ $('a.to_portfolio').click()},
             mouseenter: function(){ $('a.to_portfolio').mouseenter()},
-            mouseleave: function(){ $('a.to_portfolio').mouseleave()},
+            mouseleave: function(){ $('a.to_portfolio').mouseleave()}
         });
     },
     
