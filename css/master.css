@@ -266,7 +266,8 @@ article#site-intro a:hover{
 }          
 
 article#site-intro img.arrow{
-    opacity:0.01;
+    opacity:0.01;            
+    border:none;
     height:40px;
     width:40px;
     margin-left:5px;

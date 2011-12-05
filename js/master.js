@@ -134,8 +134,8 @@ YC.arrow = {
     init: function(){
         var arrow = $('#site-intro img.arrow'),
             timer_id = setInterval(function(){YC.arrow.flashing(arrow,2000)},1000),
-            timer_id2;               
-            
+            timer_id2;    
+           
         $('a.to_portfolio').bind({
             click: function(){
                 YC.blink._self.slider('value',960)
@@ -151,6 +151,12 @@ YC.arrow = {
                 timer_id = setInterval(function(){YC.arrow.flashing(arrow,2000)},1000);
                 $(this).animate({'color':'#08c', 'background-color':'#fff'},100)
             }
+        });
+        
+        arrow.bind({
+            click: function(){ $('a.to_portfolio').click()},
+            mouseenter: function(){ $('a.to_portfolio').mouseenter()},
+            mouseleave: function(){ $('a.to_portfolio').mouseleave()},
         })
     },
     
