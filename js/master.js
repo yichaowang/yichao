@@ -89,7 +89,7 @@ YC.navi = {
                     YC.blink._self.slider('value',2880)
                 }
             }
-        })
+        });
     },
     
     refreshActive: function(pos){
@@ -152,12 +152,11 @@ YC.arrow = {
                 $(this).animate({'color':'#08c', 'background-color':'#fff'},100)
             }
         });
-        
         arrow.bind({
             click: function(){ $('a.to_portfolio').click()},
             mouseenter: function(){ $('a.to_portfolio').mouseenter()},
             mouseleave: function(){ $('a.to_portfolio').mouseleave()},
-        })
+        });
     },
     
     flashing: function(ele, interval){
