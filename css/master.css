@@ -273,6 +273,7 @@ article#site-intro img.arrow{
     margin-left:5px;
     margin-top:-8px;
     cursor:pointer;
+    filter: 0;
 }
  
 /*  end intro article   */
