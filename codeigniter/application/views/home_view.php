@@ -9,7 +9,7 @@
 					<a class="to_portfolio" href="#">
 						Please Check Out Some of My Works.
 					</a>
-					<img class="arrow" src="/images/icon_arrow_bluecircle.png"/>
+					<img class="arrow" src="/images/icon_arrow_bluecircle_solid.png"/>
 				</hgroup>	
 			</div>
 		</article>      
