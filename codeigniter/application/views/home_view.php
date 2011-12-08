@@ -27,39 +27,59 @@
 						<img src="/images/graphic_rbc_intro.png" alt="graphic"/>
 					</figure>
 					<div class="clear"></div>
-				</section>
-				<section class="detail">
+					<img class='divider' src='/images/bg_intro_divider.png'>
+				</section>  
+				
+				<section class="features">
+					<div id="rbc-backend">
                 	<header class="grid_16">
                 		<h1>User Friendly Back End.</h1>
                 	</header>
 					<div class="clear"></div>
-					<div class="grid_4">
+					<div class="grid_5 feature-detail">
+						<img src="/images/graphic_rbc_backend_asyjson.png" alt="graphic">
 						<h1>Everything Asynchronous/JSON Nicely</h1>
 						<p>Jen needed a way to manage each class's measurements sequence and attributes that will be showed on the client's progress tab when they login. Each measurement have name, value, and unit attribute. A drag and drop sortable list made changing sequence a piece of cake on her end. She is able to edit measurement attribute simply by click the text. In addition, each action she performs will also recursively update all the exist student that currently is enrolled in the program.</p>
-						<img src="/images/graphic_rbc_backend_asyjson.png" alt="graphic">
+					</div> 
+					
+					<div class="prefix_1 grid_5 feature-detail">
+						<h1>Drag &amp Drop, Click &amp Edit Class Measurements List</h1>
+						<p>Jen needed a way to manage each class's measurements sequence and attributes that will be showed on the client's progress tab when they login. Each measurement have name, value, and unit attribute. A drag and drop sortable list made changing sequence a piece of cake on her end. She is able to edit measurement attribute simply by click the text. In addition, each action she performs will also recursively update all the exist student that currently is enrolled in the program.</p>	
 					</div>
-				</section>
-				<section class="detail">
+					
+                    <div class="clear"></div>          
+					<div class="grid_5 feature-detail">
+						<h1>Drag &amp Drop, Click &amp Edit Class Measurements List</h1>
+						<p>Jen needed a way to manage each class's measurements sequence and attributes that will be showed on the client's progress tab when they login. Each measurement have name, value, and unit attribute. A drag and drop sortable list made changing sequence a piece of cake on her end.</p>	
+					</div>
+					<div class="clear"></div>
+					</div>
+				</section>      
+				
+				<section class="features">
                 	<header class="grid_16">
                 		<h1>User Friendly Back End.</h1>
                 	</header>
 					<div class="clear"></div>
-					<div class="grid_4">
+					<div class="grid_5 feature-detail">
 						<h1>Everything Asynchronous/JSON Nicely</h1>
 						<p>Jen needed a way to manage each class's measurements sequence and attributes that will be showed on the client's progress tab when they login. Each measurement have name, value, and unit attribute. A drag and drop sortable list made changing sequence a piece of cake on her end. She is able to edit measurement attribute simply by click the text. In addition, each action she performs will also recursively update all the exist student that currently is enrolled in the program.</p>
 						<img src="/images/graphic_rbc_backend_asyjson.png" alt="graphic">
 					</div>
-				</section>
-				<section class="detail">
+					<div class="clear"></div>
+				</section> 
+				
+				<section class="features">
                 	<header class="grid_16">
                 		<h1>User Friendly Back End.</h1>
                 	</header>
 					<div class="clear"></div>
-					<div class="grid_4">
+					<div class="grid_5 feature-detail">
 						<h1>Everything Asynchronous/JSON Nicely</h1>
 						<p>Jen needed a way to manage each class's measurements sequence and attributes that will be showed on the client's progress tab when they login. Each measurement have name, value, and unit attribute. A drag and drop sortable list made changing sequence a piece of cake on her end. She is able to edit measurement attribute simply by click the text. In addition, each action she performs will also recursively update all the exist student that currently is enrolled in the program.</p>
 						<img src="/images/graphic_rbc_backend_asyjson.png" alt="graphic">
 					</div>
+					<div class="clear"></div>
 				</section>
 			</div>
 		</article>
@@ -75,39 +95,6 @@
 						<img src="/images/graphic_rbc_intro.png" alt="rbc image"/>
 					</figure>
 					<div class="clear"></div>
-				</section>
-				<section class="detail">
-                	<header class="grid_16">
-                		<h1>User Friendly Back End.</h1>
-                	</header>
-					<div class="clear"></div>
-					<div class="grid_4">
-						<h1>Everything Asynchronous/JSON Nicely</h1>
-						<p>Jen needed a way to manage each class's measurements sequence and attributes that will be showed on the client's progress tab when they login. Each measurement have name, value, and unit attribute. A drag and drop sortable list made changing sequence a piece of cake on her end. She is able to edit measurement attribute simply by click the text. In addition, each action she performs will also recursively update all the exist student that currently is enrolled in the program.</p>
-						<img src="/images/graphic_rbc_backend_asyjson.png" alt="graphic">
-					</div>
-				</section>
-				<section class="detail">
-                	<header class="grid_16">
-                		<h1>User Friendly Back End.</h1>
-                	</header>
-					<div class="clear"></div>
-					<div class="grid_4">
-						<h1>Everything Asynchronous/JSON Nicely</h1>
-						<p>Jen needed a way to manage each class's measurements sequence and attributes that will be showed on the client's progress tab when they login. Each measurement have name, value, and unit attribute. A drag and drop sortable list made changing sequence a piece of cake on her end. She is able to edit measurement attribute simply by click the text. In addition, each action she performs will also recursively update all the exist student that currently is enrolled in the program.</p>
-						<img src="/images/graphic_rbc_backend_asyjson.png" alt="graphic">
-					</div>
-				</section>
-				<section class="detail">
-                	<header class="grid_16">
-                		<h1>User Friendly Back End.</h1>
-                	</header>
-					<div class="clear"></div>
-					<div class="grid_4">
-						<h1>Everything Asynchronous/JSON Nicely</h1>
-						<p>Jen needed a way to manage each class's measurements sequence and attributes that will be showed on the client's progress tab when they login. Each measurement have name, value, and unit attribute. A drag and drop sortable list made changing sequence a piece of cake on her end. She is able to edit measurement attribute simply by click the text. In addition, each action she performs will also recursively update all the exist student that currently is enrolled in the program.</p>
-						<img src="/images/graphic_rbc_backend_asyjson.png" alt="graphic">
-					</div>
 				</section>
 			</div>
 		</article>

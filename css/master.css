@@ -271,9 +271,49 @@ article section.intro header p{
     font-size:12px;
     line-height:18px;
 }
+
+article section.intro img.divider{
+    opacity:0.01;
+}
+
+article section.features{
+    margin-top:30px;
+    margin-bottom:50px;
+    padding-bottom:20px;
+    background: url('/images/bg_section_divider.png') no-repeat left bottom;
+}
+
+article section.features header h1{
+    font-size:35px;
+    margin-bottom:22px;
+    font-family: 'Museo500', sans-serif;
+} 
+
+article section.features div.feature-detail{
+    margin-bottom:20px;
+}
+
+article section.features div.feature-detail img{
+    padding:4px;
+    border:1px solid #ddd;
+    margin-bottom:12px;
+}
+
+article section.features div.feature-detail h1{
+    font-size:14px;
+    margin:8px 0px;
+    font-family: 'Museo500', sans-serif;
+}
+
+article section.features p{
+    color:#444;
+    font-size:13px;
+    line-height:18px;
+    margin-bottom:18px;
+}
 /*  end article universal       */
 
-/*  begin intro article*/
+/*  begin site intro article*/
 article#site-intro hgroup{
     font-family: 'Museo500', sans-serif;
     padding-top:60px;
@@ -308,11 +348,15 @@ article#site-intro img.arrow{
     cursor:pointer;
 }
  
-/*  end intro article   */
+/*  end site intro article   */
 
 /*  start rbc article   */
 article#rbc section.intro{
     padding-top:60px;
+}         
+
+div#rbc-backend{
+    background:url('/images/graphic_rbc_backend_bg.png') no-repeat 100% 20%;
 }
 /*  end rbc article*/
 
