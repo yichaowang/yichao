@@ -280,7 +280,7 @@ article section.features{
     margin-top:30px;
     margin-bottom:50px;
     padding-bottom:20px;
-    background: url('/images/bg_section_divider.png') no-repeat left bottom;
+    background: url('/images/bg_section_divider.png') no-repeat 50% 100%;
 }
 
 article section.features header h1{

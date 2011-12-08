@@ -212,15 +212,15 @@ YC.navi = {
             'background-color':'#303030'
         },500) 
         
-        $('#blink-slider-activator').fadeOut(200);  
+        $('#blink-slider-activator').fadeOut(200, function(){
+            $('article section.intro img.divider').animate({
+                'opacity':1
+            },1000);
+        });  
         
         $('article section.intro').animate({
             'height':'420'
         },500,'easeOutExpo')
-        
-        $('article section.intro img.divider').animate({
-            'opacity':1
-        },200);
 
         $('footer').animate({
             'height':'20px',
@@ -265,9 +265,10 @@ YC.navi = {
         
         $('article section.intro img.divider').animate({
             'opacity':0.01
-        },200);
+        },200, function(){
+            $('#blink-slider-activator').fadeIn(200);
+        });
         
-        $('#blink-slider-activator').fadeIn(200);
         
         YC.footer.setHeight();
     } 
