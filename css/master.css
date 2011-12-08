@@ -179,7 +179,7 @@ div#blink-slider-wrapper{
     width:500px; 
     position:absolute;
     left:230px;
-    top:20%;
+    top:50%;
     border:1px solid #ededed;
     background-image:none;
     background-color:#f6f6f6;
@@ -226,7 +226,7 @@ div#main{
     padding-top:90px;
     margin:0 auto;
     width:960px;
-    height:1000px;
+    height:200px;
     overflow:hidden;
 } 
 
