@@ -77,7 +77,7 @@ YC.blink = {
     
     goToPage: function(y,x){
         $('div#main-mask').animate({
-            'left': (-1)*(y-1)*960,
+            'left': (-1)*(y-1)*960
         },function(){
             YC.navi.refreshActive();
             setTimeout(function(){$(window).scrollTop(x*525);
