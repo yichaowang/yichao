@@ -260,7 +260,7 @@ YC.navi = {
         },200);
         
         $('article section.intro').animate({
-            'height': $(window).innerHeight()-200,
+            'height': $(window).innerHeight()-200
         },200);
         
         $('article section.intro img.divider').animate({
