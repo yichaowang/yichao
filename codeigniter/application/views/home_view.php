@@ -3,7 +3,7 @@
 	<div id="main-mask">
 		<article id="site-intro">
 			<div class="container_12">
-				<section class="intro">
+				<section>
 					<hgroup class="prefix_2 grid_9">
 					   	<h1>Hello.<br>My Name is Yichao.</h1>
 						<h2>I am a web developer. <br/>I trade my time for users joy.</h2>
