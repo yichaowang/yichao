@@ -27,7 +27,7 @@
 						<img src="/images/graphic_rbc_intro.png" alt="graphic"/>
 					</figure>
 					<div class="clear"></div>
-					<img class='divider' src='/images/bg_intro_divider.png'>
+					<img class='divider' src='/images/bg_section_divider.png'>
 				</section>  
 				
 				<section class="features">
