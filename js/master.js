@@ -118,8 +118,9 @@ YC.navi = {
                 YC.navi._setActive('nav_'+target);
                 console.log('1');
                 if (target == 'home'){
-                    console.log('go home');
+                    console.log('go home beg');
                     YC.blink._self.slider('value',0)
+                    console.log('go home end');
                 } else if (target == 'portfolio'){
                     YC.blink._self.slider('value',960)
                 } else if (target == 'about'){
@@ -151,10 +152,8 @@ YC.navi = {
     },
     
     _setActive: function(nav_ele){
-        console.log('setA beg');
         $('header#navi a.active').stop(1).animate({'color':'#030303', 'background-color':'#fff'},500).removeClass('active');
         $('#'+nav_ele+' a').stop(1).animate({'color':'#fff', 'background-color':'#08f'},500).addClass('active');
-        console.log('setA end');
     },
     
     landingFlash: function(){
