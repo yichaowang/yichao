@@ -276,7 +276,9 @@ YC.navi = {
         //             
         //         });
         
-        $('#blink-slider-activator').fadeIn(200); 
+        $('#blink-slider-activator').animate({
+            opacity:1
+        },200); 
         
         YC.footer.setHeight();
     } 
