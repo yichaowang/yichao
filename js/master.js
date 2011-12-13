@@ -213,11 +213,13 @@ YC.navi = {
             'background-color':'#303030'
         },500) 
         
-        $('#blink-slider-activator').fadeOut(200, function(){
-            $('article section.intro img.divider').animate({
-                'opacity':1
-            },1000);
-        });  
+        // $('#blink-slider-activator').fadeOut(200, function(){
+        //             $('article section.intro img.divider').animate({
+        //                 'opacity':1
+        //             },1000);
+        //         }); 
+        
+        $('#blink-slider-activator').fadeOut(200) 
         
         $('article section.intro').animate({
             'height':'420'
@@ -264,12 +266,13 @@ YC.navi = {
             'height': $(window).innerHeight()-200
         },200);
         
-        $('article section.intro img.divider').animate({
-            'opacity':0.01
-        },200, function(){
-            $('#blink-slider-activator').fadeIn(200);
-        });
+        // $('article section.intro img.divider').animate({
+        //             'opacity':0.01
+        //         },200, function(){
+        //             
+        //         });
         
+        $('#blink-slider-activator').fadeIn(200); 
         
         YC.footer.setHeight();
     } 
