@@ -118,7 +118,6 @@ YC.navi = {
                 YC.navi._setActive('nav_'+target);
                 console.log('1');
                 if (target == 'home'){
-                    console.log('go home beg');
                     YC.blink._self.slider('value',0)
                     console.log('go home end');
                 } else if (target == 'portfolio'){
@@ -126,7 +125,6 @@ YC.navi = {
                 } else if (target == 'about'){
                     YC.blink._self.slider('value',2880)
                 } 
-                console.log('2');
                 $(window).scrollTop(0);
             }
         });
@@ -223,7 +221,7 @@ YC.navi = {
         //             },1000);
         //         }); 
         
-        $('#blink-slider-activator').fadeOut(200) 
+        // $('#blink-slider-activator').fadeOut(200) 
         
         $('article section.intro').animate({
             'height':'420'
