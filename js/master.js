@@ -116,14 +116,16 @@ YC.navi = {
             click: function(){
                 var target = $(this).text().toLowerCase()
                 YC.navi._setActive('nav_'+target);
+                console.log('1');
                 if (target == 'home'){
+                    console.log('go home');
                     YC.blink._self.slider('value',0)
                 } else if (target == 'portfolio'){
                     YC.blink._self.slider('value',960)
                 } else if (target == 'about'){
                     YC.blink._self.slider('value',2880)
                 } 
-                console.log('asdfads');
+                console.log('2');
                 $(window).scrollTop(0);
             }
         });
@@ -149,8 +151,10 @@ YC.navi = {
     },
     
     _setActive: function(nav_ele){
+        console.log('setA beg');
         $('header#navi a.active').stop(1).animate({'color':'#030303', 'background-color':'#fff'},500).removeClass('active');
         $('#'+nav_ele+' a').stop(1).animate({'color':'#fff', 'background-color':'#08f'},500).addClass('active');
+        console.log('setA end');
     },
     
     landingFlash: function(){
@@ -338,7 +342,6 @@ YC.arrow = {
 
 YC.zoom = {
     init: function(){
-        console.log('asdf');
         $('a.zoom').fancyZoom({scaleImg: true, closeOnClick: true});
     }
 }
