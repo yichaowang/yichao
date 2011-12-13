@@ -221,7 +221,9 @@ YC.navi = {
         //             },1000);
         //         }); 
         
-        // $('#blink-slider-activator').fadeOut(200) 
+        $('#blink-slider-activator').animate({
+            opacity:0.01
+        },200); 
         
         $('article section.intro').animate({
             'height':'420'
