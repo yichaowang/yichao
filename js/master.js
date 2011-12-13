@@ -122,7 +122,8 @@ YC.navi = {
                     YC.blink._self.slider('value',960)
                 } else if (target == 'about'){
                     YC.blink._self.slider('value',2880)
-                }
+                } 
+                console.log('asdfads');
                 $(window).scrollTop(0);
             }
         });
