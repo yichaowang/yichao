@@ -279,8 +279,9 @@ article section.intro img.divider{
 article section.features{
     margin-top:30px;
     margin-bottom:50px;
-    padding-bottom:20px;
-    background: url('/images/bg_section_divider.png') no-repeat 50% 100%;
+    padding-bottom:30px;
+/*    background: url('/images/bg_section_divider.png') no-repeat 50% 100%;*/
+/*    border-bottom:1px solid #eee;*/
 }
 
 article section.features header h1{
@@ -306,10 +307,10 @@ article section.features div.feature-detail h1{
 }
 
 article section.features p{
-    color:#444;
-    font-size:13px;
+    color:#666;
+    font-size:12px;
     line-height:18px;
-    margin-bottom:18px;
+    margin-bottom:25px;
 }
 /*  end article universal       */
 
@@ -356,7 +357,7 @@ article#rbc section.intro{
 }         
 
 div#rbc-backend{
-    background:url('/images/graphic_rbc_backend_bg.png') no-repeat 100% 20%;
+    background:url('/images/graphic_rbc_backend_bg.png') no-repeat 105% 20%;
 }
 /*  end rbc article*/
 

@@ -5,6 +5,7 @@ YC = {
     navi:{},
     yscroll:{},
     arrow:{},
+    zoom:{},
     footer:{}
 };
 
@@ -329,6 +330,13 @@ YC.arrow = {
             ele.stop(1).animate({'opacity':1},parseInt(interval)/2);
         }
     }
+} 
+
+YC.zoom = {
+    init: function(){
+        console.log('asdf');
+        $('a.zoom').fancyZoom({scaleImg: true, closeOnClick: true});
+    }
 }
 
 YC.footer = {
@@ -364,5 +372,6 @@ $(document).ready(function() {
     YC.navi.init();
     YC.yscroll.init();
     YC.arrow.init();
+    YC.zoom.init();
     YC.footer.init();
 })  
