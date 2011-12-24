@@ -6,7 +6,7 @@
 				<section>
 					<hgroup class="prefix_2 grid_9">
 					   	<h1>Hello.<br>My Name is Yichao.</h1>
-						<h2>I am a web developer. <br/>I trade my time for users joy.</h2>
+						<h2>I am a web developer. <br/>I trade my time for user's joy.</h2>
 						<a class="to_portfolio" href="#">
 							Please Check Out Some of My Works.
 						</a>
@@ -20,7 +20,7 @@
 			<div class="container_16">
 				<section class="intro">
 					<header class="grid_6">
-						<h1>Modern. Personal. Self-manageable. <em>Delivered.</em></h1>
+						<h1><em>Renewal </em>Body Bootcamp.</h1>
 						<p>Renewal Body Bootcamp is a boutique gym with customer mainly from the city. The new business has a series of specialty classes with specific measurement.</p>
 					</header>
 					<figure class="grid_10">
@@ -150,7 +150,7 @@
 					<div class="clear"></div>
 				</section> 
 				<section class="features">
-					<div id="asa_front">
+					<div id="asa_summary">
                 		<header class="grid_16">
 	                		<h1>Summary</h1>
 	                	</header>
@@ -181,32 +181,43 @@
 						<div class="prefix_1 grid_10 feature-detail">
 							<img class="illustration" src="/images/graphic_asa_front_home.png" alt="graphic">
 						</div>
-						<div class="clear"></div>
+						<div class="clear"></div>   
+						
 						<div class="grid_5 feature-detail">
 							<h1>Content Organization and Highlights</h1>
 							<p>The rest of the site categories its content and presents its information in a chronological ordered list for easy navigation. Here are some of the highlights from each section:</p>
 						</div>            
 						<div class="clear"></div>
 						<div class="grid_5 feature-detail">
+							<a class="zoom" href="#fullAsaFrontEvent"><img src="/images/graphic_asa_front_event_thumb.png" alt="graphic"></a>
+							<div id="fullAsaFrontEvent"><img src="/images/graphic_asa_front_event_full.png" alt="graphic"></div>
 							<h2>Events</h2>
-							<p>Under the Events tab, a colored tag is added by the site to separate passed and upcoming events so it maintains the chronological order of the entire semester's events as well as inform the upcoming events. PHP date & time function was used.</p>
+								<p>Under the Events tab, a colored tag is added by the site to separate passed and upcoming events so it maintains the chronological order of the entire semester's events as well as inform the upcoming events. PHP date & time function was used.</p> 
 						</div>              
 						<div class="grid_5 feature-detail">
+							<a class="zoom" href="#fullAsaFrontPopup"><img src="/images/graphic_asa_front_popup_thumb.png" alt="graphic"></a>
+							<div id="fullAsaFrontPopup"><img src="/images/graphic_asa_front_popup_full.png" alt="graphic"></div>
 							<h2>Pop-up Event R.S.V.P</h2>
-							<p>UR.S.V.P events can be registered through a pop-up event on the homepage. The red ticker update the number of people that have signed up in real-time.</p>
+							<p>R.S.V.P events can be registered through a pop-up event on the homepage. The red ticker update the number of people that have signed up in real-time.</p>
 						</div>
 						<div class="grid_5 feature-detail">
+							<a class="zoom" href="#fullAsaFrontBio"><img src="/images/graphic_asa_front_bio_thumb.png" alt="graphic"></a>
+							<div id="fullAsaFrontBio"><img src="/images/graphic_asa_front_bio_full.png" alt="graphic"></div>
 							<h2>Officer Biography</h2>
-							<p>E-board members are able to update their own bio on the back end. Positions can be picked through the drop down menu. Once the position is picked, the sequence on the front end will be displayed according to the predefined SQL table through a table joint.</p>
+							<p>E-board members are able to update their own bio on the back end. Positions can be picked through the drop down menu. Once the position is picked, the sequence on the front end will be displayed according to the predefined SQL table through a table joint.</p>  
 						</div>
 						<div class="clear"></div>
-						<div class="grid_5 feature-detail">
+						<div class="grid_5 feature-detail"> 
+							<a class="zoom" href="#fullAsaFrontPhoto"><img src="/images/graphic_asa_front_photo_thumb.png" alt="graphic"></a>
+							<div id="fullAsaFrontPhoto"><img src="/images/graphic_asa_front_photo_full.png" alt="graphic"></div>
 							<h2>Photo</h2>
-							<p>A javascript gallery plugin was used for displaying pictures.</p>
+							<p>A javascript gallery plugin was used for displaying pictures.</p>   
 						</div>
 						<div class="grid_5 feature-detail">
-							 <h2>Downloads</h2>
-							<p>Presentation and minutes download.</p>
+							<a class="zoom" href="#fullAsaFrontFile"><img src="/images/graphic_asa_front_files_thumb.png" alt="graphic"></a>
+							<div id="fullAsaFrontFile"><img src="/images/graphic_asa_front_files_full.png" alt="graphic"></div>
+							<h2>Downloads</h2>
+							<p>Presentation and minutes download.</p> 
 						</div>
 					</div>
 				</section>

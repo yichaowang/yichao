@@ -379,7 +379,14 @@ article#site-intro img.arrow{
 /*  start rbc article   */
 article#rbc section.intro{
     padding-top:60px;
-}         
+}      
+
+article#rbc section.intro header h1{
+    font-family: 'Museo500', sans-serif;
+    padding-top:35px;
+    padding-bottom:23px;
+} 
+   
 
 article#rbc section.features div#rbc-backend{
     background:url('/images/graphic_rbc_backend_bg.png') no-repeat 105% 20%;
@@ -419,7 +426,8 @@ article#asa section.intro header h1{
 article#asa section.intro header h1 em{
     font-size:35px;
     color:#303030;
-}
+}  
+
 
 /*  end asa article*/     
 
