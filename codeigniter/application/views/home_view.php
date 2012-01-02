@@ -6,7 +6,7 @@
 				<section>
 					<hgroup class="prefix_2 grid_9">
 					   	<h1>Hello.<br>My Name is Yichao.</h1>
-						<h2>I am a web developer. <br/>I trade my time for user's joy.</h2>
+						<h2>I am a web developer. <br/>I build cool stuff on the web.</h2>
 						<a class="to_portfolio" href="#">
 							Please Check Out Some of My Works.
 						</a>
