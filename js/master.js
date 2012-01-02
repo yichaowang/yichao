@@ -40,7 +40,7 @@ YC.blink = {
         this._self.slider({
             animate: true,
             min:0,
-            max:(this.content_width - 960),
+            max:(this.content_width - 960*3),
             slide: function(event, ui){
                 YC.blink.content.stop(1).animate({"left": (-1)*ui.value},300);
                 YC.navi.refreshActive((-1)*ui.value+"px");
@@ -92,6 +92,7 @@ YC.navi = {
         this._self = $('header#navi');
         this.content = $('#main-mask');
         this.h_location = 1;
+        this.portfolio_pos = 2;
         this.setAppearance();
         this.refreshActive();
         this.landingFlash();
@@ -115,13 +116,25 @@ YC.navi = {
             
             click: function(){
                 var target = $(this).text().toLowerCase()
-                YC.navi._setActive('nav_'+target);
                 if (target == 'home'){
                     YC.blink._self.slider('value',0)
                 } else if (target == 'portfolio'){
-                    YC.blink._self.slider('value',960)
-                } else if (target == 'about'){
-                    YC.blink._self.slider('value',2880)
+                    YC.blink._self.slider('value',960*(YC.navi.portfolio_pos-1));
+                    $('#blink-slider-activator').css('z-index','100').animate({
+                        opacity:1
+                    },200);
+                } else if (target == 'resume'){
+                    YC.blink.content.stop(1).animate({"left": (-1)*3840},1500,'easeOutExpo');
+                    $('#blink-slider-activator').css('z-index','-1').animate({
+                        opacity:0.01
+                    },200);
+                    YC.navi.refreshActive((-1)*3840+"px");
+                } else if (target == 'about'){   
+                    YC.blink.content.stop(1).animate({"left": (-1)*4800},1500,'easeOutExpo');
+                    $('#blink-slider-activator').css('z-index','-1').animate({
+                        opacity:0.01
+                    },200);
+                    YC.navi.refreshActive((-1)*4800+"px");
                 } 
                 $(window).scrollTop(0);
             }
@@ -135,14 +148,17 @@ YC.navi = {
         if (YC.navi.h_location!=content_pos){  
             if (content_pos == 1 ){
                 this._setActive('nav_home');
-            } else if (content_pos >= 2 && content_pos <= 3 ){
+            } else if (content_pos >= 2 && content_pos <= 4 ){
                 this._setActive('nav_portfolio');
-            } else if (content_pos >= 4 && content_pos <= 4){
+                this.portfolio_pos = content_pos;
+            } else if (content_pos >= 5 && content_pos <= 5){
+                this._setActive('nav_resume');
+            } else if (content_pos >= 6 && content_pos <= 6){
                 this._setActive('nav_about');
-            }   
+            }  
             
             YC.blink.refreshViewportHeight((content_pos-1));
-            YC.navi.h_location = content_pos;  
+            YC.navi.h_location = content_pos; 
         }
     },
     

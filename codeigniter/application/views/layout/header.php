@@ -19,9 +19,9 @@
 					<li id="nav_about">
 						<a>ABOUT</a>
 					</li>
-					<li id="nav_contact">
-						<a>CONTACT</a>
-					</li>
+					<!-- <li id="nav_contact">
+											 <a>CONTACT</a>
+										</li> -->
 				</ul>
 			</nav>
 		</div>

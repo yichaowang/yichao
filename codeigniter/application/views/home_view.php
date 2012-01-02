@@ -224,6 +224,37 @@
 			</div>
 		</article>
 		
+		<article id="clep" class="portfolio">
+			<div class="container_16">
+		  	  	<section class="intro">
+					<header class="grid_6">
+						<h1>Clepsydra.<br></em>Online Timesheet	.</h1>
+						<p>Renewal Body Bootcamp is a boutique gym with customer mainly from the city. The new business has a series of specialty classes with specific measurement.</p>
+					</header>
+					<figure class="grid_10">
+						<img src="/images/graphic_rbc_intro.png" alt="graphic"/>
+					</figure>
+					<div class="clear"></div>
+					<!-- <img class='divider' src='/images/bg_section_divider.png'> -->
+				</section> 
+			</div>
+		</article>
+		
+		<article id="resume" class="resume">
+			<div class="container_16">
+				<section class="intro">
+					<header class="grid_6">
+						<h1>Resume <em>Me.</em></h1>
+						<p>This is the Resume section.</p>
+					</header>
+					<div class="clear"></div>
+				</section>
+				<section class="detail grid_16">
+
+				</section>
+			</div>
+		</article> 
+		
 		<article id="about" class="about">
 			<div class="container_16">
 				<section class="intro">
