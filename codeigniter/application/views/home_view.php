@@ -150,7 +150,8 @@
 				<section class="intro">
 					<header class="grid_6">
 						<h1>Michigan State University<br><em>Accounting Student Association.</em></h1>
-						<p>Michigan State University Accounting Student Association is the biggest student organization in the Eli Broad Business College. The student organization need a clean and simple website that reflect its professional nature.</p>
+						<p>Michigan State University Accounting Student Association is the biggest student organization in the Eli Broad Business College. The student organization need a clean and simple website that reflect its professional nature.</p>  
+						<div class="clear"></div>
 						<div class="grid_1 alpha omega">
 							<img class="arrow detail" src="/images/icon_arrow_bluecircle_solid_down.png"/>
 						</div>            

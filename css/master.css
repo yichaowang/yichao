@@ -350,18 +350,18 @@ article section.features p em{
 article img.arrow.detail{
     opacity:0.01;            
     border:none;
-    height:40px;
-    width:40px;
+    height:43px;
+    width:33px;
     margin-left:0px;
-    margin-top:30px;
+    margin-top:10px;
     cursor:pointer;
 }                              
 
 article div.tooltip-scroll{
     width:210px;
     height:58px;
-    margin-top:20px;
-    margin-left:5px;
+    margin-top:-3px;
+    margin-left:-5px;
     background:url("/images/icon_tooltip_detail.png") no-repeat;
     display:none;
 }
@@ -449,7 +449,7 @@ article#asa section.intro header h1{
     font-family: 'Museo500', sans-serif;
     font-size:26px;
     color:#3b663f;
-    padding-top:35px;
+    padding-top:0px;
     padding-bottom:23px;
 } 
 
