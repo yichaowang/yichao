@@ -421,10 +421,10 @@ YC.footer = {
     }
 }
       
-$.preLoadImages("/images/icon_tooltip.png");
 
 
 $(document).ready(function() {
+    YC.preloading.preloadImg("/images/icon_tooltip.png");
     YC.blink.init();
     YC.navi.init();
     YC.yscroll.init();

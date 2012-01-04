@@ -833,17 +833,3 @@ $.fn.fancyZoom = function(options){
 	}
 }
 })(jQuery);  
-
-//Preloading
-(function($) {
-  window.preloadingcache = [];
-  // Arguments are image paths relative to the current page.
-  $.preLoadImages = function() {
-    var args_len = arguments.length;
-    for (var i = args_len; i--;) {
-      var cacheImage = document.createElement('img');
-      cacheImage.src = arguments[i];
-      window.preloadingcache.push(cacheImage);
-    }
-  }
-})(jQuery)
