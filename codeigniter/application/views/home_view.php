@@ -1,6 +1,8 @@
 <?php include('layout/head.php') ?>
 <div id="main">
 	<div id="main-mask">
+		<img src="/images/icon_tooltip.png">
+		<img src="/images/icon_tooltip_detail.png">
 		<article id="site-intro">
 			<div class="container_12">
 				<section>
