@@ -2,6 +2,7 @@ var YC = YC || {};
 
 YC = {
     blink:{},
+    preloading:{},
     navi:{},
     yscroll:{},
     arrow:{},
@@ -85,6 +86,18 @@ YC.blink = {
             setTimeout(function(){$(window).scrollTop(x*525);
             },1300)
         });
+    }
+} 
+
+YC.preloading = {
+    preloadImg : function(){
+        var cache = [];
+        var args_len = arguments.length;
+        for (var i = args_len; i--;) {
+            var cacheImage = document.createElement('img');
+            cacheImage.src = arguments[i];
+            cache.push(cacheImage);
+        } 
     }
 }
 
@@ -353,7 +366,7 @@ YC.arrow = {
 }
 
 YC.tooltip = {
-    init: function(){
+    init: function(){        
         this._self = $('div#blink-tooltip');
         this._self.bind({
             click: function(){
@@ -409,6 +422,7 @@ YC.footer = {
 }
 
 $(document).ready(function() {
+    YC.preloading.preloadImg('/images/icon_tooltip.png');
     YC.blink.init();
     YC.navi.init();
     YC.yscroll.init();
