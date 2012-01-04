@@ -250,6 +250,10 @@ div#main-mask{
 div#main-mask article{
     width:960px;
     float:left;
+}
+
+div#main-mask div.preloading{
+    display:none;
 } 
 /*  end main*/ 
 
@@ -360,7 +364,7 @@ article img.arrow.detail{
 article div.tooltip-scroll{
     width:210px;
     height:58px;
-    margin-top:-3px;
+    margin-top:3px;
     margin-left:-5px;
     background:url("/images/icon_tooltip_detail.png") no-repeat;
     display:none;
