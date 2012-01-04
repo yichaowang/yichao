@@ -22,7 +22,13 @@
 					<header class="grid_6">
 						<h1><em>Renewal </em>Body Bootcamp.</h1>
 						<p>Renewal Body Bootcamp is a boutique gym with customer mainly from the city. The new business has a series of specialty classes with specific measurement.</p>
-						<img class="arrow detail" src="/images/icon_arrow_bluecircle_solid_down.png"/>
+						<div class="clear"></div>
+						<div class="grid_1 alpha omega">
+							<img class="arrow detail" src="/images/icon_arrow_bluecircle_solid_down.png"/>
+						</div>            
+						<div class="grid_5 alpha omega">
+							<div class="tooltip-scroll"></div>
+						</div>
 					</header>
 					<figure class="grid_10">
 						<img src="/images/graphic_rbc_intro.png" alt="graphic"/>
@@ -143,6 +149,12 @@
 					<header class="grid_6">
 						<h1>Michigan State University<br><em>Accounting Student Association.</em></h1>
 						<p>Michigan State University Accounting Student Association is the biggest student organization in the Eli Broad Business College. The student organization need a clean and simple website that reflect its professional nature.</p>
+						<div class="grid_1 alpha omega">
+							<img class="arrow detail" src="/images/icon_arrow_bluecircle_solid_down.png"/>
+						</div>            
+						<div class="grid_5 alpha omega">
+							<div class="tooltip-scroll"></div>
+						</div>
 					</header>
 					<figure class="grid_10">
 						<img src="/images/graphic_asa_intro.png" alt="rbc image"/>
@@ -230,6 +242,12 @@
 					<header class="grid_6">
 						<h1>Clepsydra.<br></em>Online Timesheet	.</h1>
 						<p>Renewal Body Bootcamp is a boutique gym with customer mainly from the city. The new business has a series of specialty classes with specific measurement.</p>
+						<div class="grid_1 alpha omega">
+							<img class="arrow detail" src="/images/icon_arrow_bluecircle_solid_down.png"/>
+						</div>            
+						<div class="grid_5 alpha omega">
+							<div class="tooltip-scroll"></div>
+						</div>
 					</header>
 					<figure class="grid_10">
 						<img src="/images/graphic_rbc_intro.png" alt="graphic"/>

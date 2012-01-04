@@ -345,6 +345,25 @@ article section.features p{
 article section.features p em{
     font-style:normal;
     font-family: 'Museo500', sans-serif;
+}                                    
+
+article img.arrow.detail{
+    opacity:0.01;            
+    border:none;
+    height:40px;
+    width:40px;
+    margin-left:0px;
+    margin-top:30px;
+    cursor:pointer;
+}                              
+
+article div.tooltip-scroll{
+    width:210px;
+    height:58px;
+    margin-top:20px;
+    margin-left:5px;
+    background:url("/images/icon_tooltip_detail.png") no-repeat;
+    display:none;
 }
 /*  end article universal       */
 
@@ -383,15 +402,7 @@ article#site-intro img.arrow.mcontent{
     cursor:pointer;
 } 
 
-article img.arrow.detail{
-    opacity:0.01;            
-    border:none;
-    height:40px;
-    width:40px;
-    margin-left:0px;
-    margin-top:30px;
-    cursor:pointer;
-}
+
  
 /*  end site intro article   */
 

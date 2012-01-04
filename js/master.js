@@ -315,9 +315,9 @@ YC.yscroll = {
     yListener: function(){
         $(window).bind({
             scroll: function(){
-                if ($(window).scrollTop()>30){
+                if ($(window).scrollTop()>70){
                     YC.navi.transform('reader');
-                } else if ($(window).scrollTop()<31){
+                } else if ($(window).scrollTop()<71){
                     YC.navi.transform('slideshow');
                 }
             }
@@ -353,7 +353,26 @@ YC.arrow = {
             click: function(){ $('a.to_portfolio').click()},
             mouseenter: function(){ $('a.to_portfolio').mouseenter()},
             mouseleave: function(){ $('a.to_portfolio').mouseleave()}
-        });
+        });  
+        
+        arrow.filter('.detail').bind({
+            mouseenter: function(){
+                var tooltip = $(this).parent().next().children('div.tooltip-scroll');
+                clearInterval(timer_id_detail);  
+                arrow.filter('.detail').stop(1).css('opacity','0.01').animate({'opacity':'1'},100);
+                if (tooltip.css('display')=="none"){
+                    tooltip.show('drop',300);
+                }
+            },
+            mouseleave: function(){
+                var tooltip = $(this).parent().next().children('div.tooltip-scroll');
+                arrow.filter('.detail').stop(1).css('opacity','0.01').animate({'opacity':'1'},2000);
+                timer_id_detail = setInterval(function(){YC.arrow.flashing(arrow.filter('.detail'),4000)},2000);    
+                if (tooltip.css('display')!="none"){
+                    tooltip.hide('drop',300);
+                }
+            }
+        })
     },
     
     flashing: function(ele, interval){
