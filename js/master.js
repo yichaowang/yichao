@@ -91,12 +91,12 @@ YC.blink = {
 
 YC.preloading = {
     preloadImg : function(){
-        var cache = [];
+        YC.preloading.cache = [];
         var args_len = arguments.length;
         for (var i = args_len; i--;) {
             var cacheImage = document.createElement('img');
             cacheImage.src = arguments[i];
-            cache.push(cacheImage);
+            YC.preloading.cache.push(cacheImage);
         } 
     }
 }
@@ -420,9 +420,11 @@ YC.footer = {
         })
     }
 }
+      
+YC.preloading.preloadImg('/images/icon_tooltip.png');
+
 
 $(document).ready(function() {
-    YC.preloading.preloadImg('/images/icon_tooltip.png');
     YC.blink.init();
     YC.navi.init();
     YC.yscroll.init();
