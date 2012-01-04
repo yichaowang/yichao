@@ -5,6 +5,7 @@ YC = {
     navi:{},
     yscroll:{},
     arrow:{},
+    tooltip:{},
     zoom:{},
     footer:{}
 };
@@ -313,9 +314,9 @@ YC.yscroll = {
 
 YC.arrow = {
     init: function(){
-        var arrow = $('#site-intro img.arrow'),
-            timer_id = setInterval(function(){YC.arrow.flashing(arrow,2000)},1000),
-            timer_id2;    
+        var arrow = $('img.arrow'),
+            timer_id = setInterval(function(){YC.arrow.flashing(arrow.filter('.mcontent'),2000)},1000),
+            timer_id_detail = setInterval(function(){YC.arrow.flashing(arrow.filter('.detail'),4000)},2000);    
            
         $('a.to_portfolio').bind({
             click: function(){
@@ -323,18 +324,19 @@ YC.arrow = {
             },
             mouseenter: function(){
                 clearInterval(timer_id);
-                arrow.stop(1).css('opacity','0.01').animate({'opacity':'1'},100);
-                timer_id = setInterval(function(){YC.arrow.flashing(arrow,200)},100);
+                arrow.filter('.mcontent').stop(1).css('opacity','0.01').animate({'opacity':'1'},100);
+                timer_id = setInterval(function(){YC.arrow.flashing(arrow.filter('.mcontent'),200)},100);
                 $(this).animate({'color':'#fff', 'background-color':'#08c'},100)
             },
             mouseleave: function(){
                 clearInterval(timer_id);
-                arrow.stop(1).css('opacity','0.01').animate({'opacity':'1'},1000);
-                timer_id = setInterval(function(){YC.arrow.flashing(arrow,2000)},1000);
+                arrow.filter('.mcontent').stop(1).css('opacity','0.01').animate({'opacity':'1'},1000);
+                timer_id = setInterval(function(){YC.arrow.flashing(arrow.filter('.mcontent'),2000)},1000);
                 $(this).animate({'color':'#08c', 'background-color':'#fff'},100)
             }
         });
-        arrow.bind({
+        
+        arrow.filter('.mcontent').bind({
             click: function(){ $('a.to_portfolio').click()},
             mouseenter: function(){ $('a.to_portfolio').mouseenter()},
             mouseleave: function(){ $('a.to_portfolio').mouseleave()}
@@ -348,7 +350,29 @@ YC.arrow = {
             ele.stop(1).animate({'opacity':1},parseInt(interval)/2);
         }
     }
-} 
+}
+
+YC.tooltip = {
+    init: function(){
+        this._self = $('div#blink-tooltip');
+        this._self.bind({
+            click: function(){
+                YC.tooltip._self.fadeOut(200);
+            }
+        })
+        this._self.hide();
+        setTimeout(function(){
+            YC.tooltip._self.show('clip',200)
+        },1500);
+    },
+    
+    fade: function(){
+        var tip = this._self;
+        if (tip.css('display')!='none'){
+            console.log("the tooltip is displayed");
+        }
+    }
+}   
 
 YC.zoom = {
     init: function(){
@@ -389,6 +413,7 @@ $(document).ready(function() {
     YC.navi.init();
     YC.yscroll.init();
     YC.arrow.init();
+    YC.tooltip.init();
     YC.zoom.init();
     YC.footer.init();
 })  

@@ -10,7 +10,7 @@
 						<a class="to_portfolio" href="#">
 							Please Check Out Some of My Works.
 						</a>
-						<img class="arrow" src="/images/icon_arrow_bluecircle_solid.png"/>
+						<img class="arrow mcontent" src="/images/icon_arrow_bluecircle_solid.png"/>
 					</hgroup>
 				</section>
 			</div>
@@ -22,12 +22,12 @@
 					<header class="grid_6">
 						<h1><em>Renewal </em>Body Bootcamp.</h1>
 						<p>Renewal Body Bootcamp is a boutique gym with customer mainly from the city. The new business has a series of specialty classes with specific measurement.</p>
+						<img class="arrow detail" src="/images/icon_arrow_bluecircle_solid_down.png"/>
 					</header>
 					<figure class="grid_10">
 						<img src="/images/graphic_rbc_intro.png" alt="graphic"/>
 					</figure>
 					<div class="clear"></div>
-					<!-- <img class='divider' src='/images/bg_section_divider.png'> -->
 				</section>  
 				
 				<section class="features">
@@ -272,6 +272,7 @@
 	</div>
 	<div id="blink-slider-activator">
 		<div id="blink-slider-wrapper">
+			<div id="blink-tooltip"></div>
 		   	<div id="blink-slider"></div>
 		</div>
 	</div>

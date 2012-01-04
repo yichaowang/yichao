@@ -183,8 +183,17 @@ div#blink-slider-wrapper{
     border:1px solid #ededed;
     background-image:none;
     background-color:#f6f6f6;
-}
+}      
 
+div#blink-tooltip{
+    position:absolute;
+    left:-20px;
+    top:-85px;
+    width:146px;
+    height:80px;
+    background-image:url('/images/icon_tooltip.png');
+    background-repeat: no-repeat;
+}
 
 div#blink-slider{
     width:430px;
@@ -364,13 +373,23 @@ article#site-intro a:hover{
     text-decoration:none;
 }          
 
-article#site-intro img.arrow{
+article#site-intro img.arrow.mcontent{
     opacity:0.01;            
     border:none;
     height:40px;
     width:40px;
     margin-left:5px;
     margin-top:-8px;
+    cursor:pointer;
+} 
+
+article img.arrow.detail{
+    opacity:0.01;            
+    border:none;
+    height:40px;
+    width:40px;
+    margin-left:0px;
+    margin-top:30px;
     cursor:pointer;
 }
  
