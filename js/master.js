@@ -421,7 +421,7 @@ YC.footer = {
     }
 }
       
-YC.preloading.preloadImg('/images/icon_tooltip.png');
+$.preLoadImages("/images/icon_tooltip.png");
 
 
 $(document).ready(function() {
