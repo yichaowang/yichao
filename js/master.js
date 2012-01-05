@@ -330,7 +330,7 @@ YC.arrow = {
     init: function(){
         var arrow = $('img.arrow'),
             timer_id = setInterval(function(){YC.arrow.flashing(arrow.filter('.mcontent'),2000)},1000),
-            timer_id_detail = setInterval(function(){YC.arrow.flashing(arrow.filter('.detail'),2000)},1000);    
+            timer_id_detail = setInterval(function(){YC.arrow.flashing(arrow.filter('.detail'),4000)},2000);    
            
         $('a.to_portfolio').bind({
             click: function(){
@@ -358,7 +358,7 @@ YC.arrow = {
         
         arrow.filter('.detail').bind({
             mouseenter: function(){
-                var tooltip = $(this).parent().next().children('div.tooltip-scroll');
+                var tooltip = $(this).parent().siblings('.grid_5').children('div.tooltip-scroll');
                 clearInterval(timer_id_detail);  
                 arrow.filter('.detail').stop(1).css('opacity','0.01').animate({'opacity':'1'},100);
                 if (tooltip.css('display')=="none"){
@@ -366,9 +366,9 @@ YC.arrow = {
                 }
             },
             mouseleave: function(){
-                var tooltip = $(this).parent().next().children('div.tooltip-scroll');
-                arrow.filter('.detail').stop(1).css('opacity','0.01').animate({'opacity':'1'},1000);
-                timer_id_detail = setInterval(function(){YC.arrow.flashing(arrow.filter('.detail'),2000)},1000);    
+                var tooltip = $(this).parent().siblings('.grid_5').children('div.tooltip-scroll');
+                arrow.filter('.detail').stop(1).css('opacity','0.01').animate({'opacity':'1'},2000);
+                timer_id_detail = setInterval(function(){YC.arrow.flashing(arrow.filter('.detail'),4000)},2000);    
                 if (tooltip.css('display')!="none"){
                     tooltip.hide('drop',150);
                 }

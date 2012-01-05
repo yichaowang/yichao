@@ -25,11 +25,12 @@
 				<section class="intro">
 					<header class="grid_6">
 						<h1><em>Renewal </em>Body Bootcamp.</h1>
-						<p>Renewal Body Bootcamp is a boutique gym with customer mainly from the city. The new business has a series of specialty classes with specific measurement.</p>
+						<p>Renewal Body Bootcamp is a boutique gym with customer mainly from the city. The new business needed a website to attract potential customers as well as managing a series of specialty classes with specific measurement.</p>
 						<div class="clear"></div>
 						<div class="grid_1 alpha omega">
 							<img class="arrow detail" src="/images/icon_arrow_bluecircle_solid_down.png"/>
-						</div>            
+						</div>
+						<div class="clear"></div>            
 						<div class="grid_5 alpha omega">
 							<div class="tooltip-scroll"></div>
 						</div>
@@ -152,11 +153,12 @@
 				<section class="intro">
 					<header class="grid_6">
 						<h1>Michigan State University<br><em>Accounting Student Association.</em></h1>
-						<p>Michigan State University Accounting Student Association is the biggest student organization in the Eli Broad Business College. The student organization need a clean and simple website that reflect its professional nature.</p>  
+						<p>Michigan State University Accounting Student Association is the biggest student organization in the Eli Broad Business College. The student organization need a clean and simple website that represents its professional nature.</p>  
 						<div class="clear"></div>
 						<div class="grid_1 alpha omega">
 							<img class="arrow detail" src="/images/icon_arrow_bluecircle_solid_down.png"/>
-						</div>            
+						</div>
+						<div class="clear"></div>            
 						<div class="grid_5 alpha omega">
 							<div class="tooltip-scroll"></div>
 						</div>
@@ -236,7 +238,44 @@
 							<h2>Downloads</h2>
 							<p>Presentation and minutes download.</p> 
 						</div>
+						<div class="clear"></div>
 					</div>
+				</section>     
+				
+				<section class="features">
+					<header class="grid_16">
+                		<h1>Functional Back End</h1>
+                	</header>
+					<div class="clear"></div>
+					<div class="grid_5 feature-detail">
+						<h1>The backend that gets the work done.</h1>
+						<p>The backend was wrote from scratch with each interface and functionality specifically designed towards each part of the front end. It made creating and updating contents fast and easy with minimum technical knowledge. The broad members can basically modifying every content on the site on their own.</p>   
+					</div>
+					<div class="prefix_1 grid_10 feature-detail">
+						<img class="illustration" src="/images/graphic_asa_back_all.png" alt="graphic">
+					</div>
+					<div class="clear"></div>
+					
+					<div class="grid_5 feature-detail">
+						<a class="zoom" href="#fullAsaBackEvent"><img src="/images/graphic_asa_back_events_thumb.png" alt="graphic"></a>
+						<div id="fullAsaBackEvent"><img src="/images/graphic_asa_back_events_full.png" alt="graphic"></div>
+						<h2>Managing Events</h2>
+							<p>Under the Events tab, a colored tag is added by the site to separate passed and upcoming events so it maintains the chronological order of the entire semester's events as well as inform the upcoming events. PHP date & time function was used.</p> 
+					</div>  
+					            
+					<div class="grid_5 feature-detail">
+						<a class="zoom" href="#fullAsaBackBio"><img src="/images/graphic_asa_back_bio_thumb.png" alt="graphic"></a>
+						<div id="fullAsaBackBio"><img src="/images/graphic_asa_back_bio_full.png" alt="graphic"></div>
+						<h2>Updating Officer Biography</h2>
+						<p>E-Board members are able to update their own bio on the back end. Positions can be picked through the drop down menu. Once the position is picked, the sequence on the front end will be displayed according to a predefined table through table joint.</p>
+					</div>
+					<div class="grid_5 feature-detail">
+						<a class="zoom" href="#fullAsaBackFile"><img src="/images/graphic_asa_back_file_thumb.png" alt="graphic"></a>
+						<div id="fullAsaBackFile"><img src="/images/graphic_asa_back_file_full.png" alt="graphic"></div>
+						<h2>Uploading file</h2>
+						<p>Presentations and meeting minutes can be upload from the backend. File's icon is added based on the file extension.</p>  
+					</div>
+					<div class="clear"></div>
 				</section>
 			</div>
 		</article>
@@ -245,8 +284,32 @@
 			<div class="container_16">
 		  	  	<section class="intro">
 					<header class="grid_6">
-						<h1>Clepsydra.<br></em>Online Timesheet	.</h1>
-						<p>Renewal Body Bootcamp is a boutique gym with customer mainly from the city. The new business has a series of specialty classes with specific measurement.</p>
+						<h1><em>Clepsydra.<br></em>Online Timesheet.</h1>
+						<p>Clepsydra Time sheet.</p>
+						<div class="clear"></div>
+						<div class="grid_1 alpha omega">
+							<img class="arrow detail" src="/images/icon_arrow_bluecircle_solid_down.png"/>
+						</div>
+						<div class="clear"></div>            
+						<div class="grid_5 alpha omega">
+							<div class="tooltip-scroll"></div>
+						</div>
+					</header>
+					<figure class="grid_10">
+						<img src="/images/graphic_clep_intro.png" alt="graphic"/>
+					</figure>
+					<div class="clear"></div>
+					<!-- <img class='divider' src='/images/bg_section_divider.png'> -->
+				</section> 
+			</div>
+		</article>
+		
+		<article id="sia" class="portfolio">
+			<div class="container_16">
+		  	  	<section class="intro">
+					<header class="grid_6">
+						<h1><em>Michigan State University<br></em>Student Investment Association</h1>
+						<p>Student Investment Association Website</p>
 						<div class="grid_1 alpha omega">
 							<img class="arrow detail" src="/images/icon_arrow_bluecircle_solid_down.png"/>
 						</div>            

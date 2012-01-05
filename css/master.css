@@ -354,8 +354,8 @@ article section.features p em{
 article img.arrow.detail{
     opacity:0.01;            
     border:none;
-    height:43px;
-    width:33px;
+    height:29px;
+    width:100px;
     margin-left:0px;
     margin-top:10px;
     cursor:pointer;
@@ -461,9 +461,14 @@ article#asa section.intro header h1 em{
     font-size:35px;
     color:#303030;
 }  
+/*  end asa article*/    
 
+/* start clep ariticle */
+article#clep section.intro{
+    padding-top:60px;
+}
 
-/*  end asa article*/     
+/* end clep ariticle*/
 
 footer{
     font-weight:normal;
