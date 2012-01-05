@@ -285,7 +285,7 @@
 		  	  	<section class="intro">
 					<header class="grid_6">
 						<h1><em>Clepsydra.<br></em>Online Timesheet.</h1>
-						<p>Clepsydra Time sheet.</p>
+						<p>Clepsydra Time sheet. Michigan State University Accounting Student Association is the biggest student organization in the Eli Broad Business College. The student organization need a clean and simple website that represents its professional nature.</p>
 						<div class="clear"></div>
 						<div class="grid_1 alpha omega">
 							<img class="arrow detail" src="/images/icon_arrow_bluecircle_solid_down.png"/>
@@ -296,7 +296,7 @@
 						</div>
 					</header>
 					<figure class="grid_10">
-						<img src="/images/graphic_clep_intro.png" alt="graphic"/>
+						<img src="/images/graphic_clep	_intro.png" alt="graphic"/>
 					</figure>
 					<div class="clear"></div>
 					<!-- <img class='divider' src='/images/bg_section_divider.png'> -->
