@@ -241,7 +241,7 @@ div#main{
 
 div#main-mask{
     position:absolute;
-    width:5760px;
+    width:6720px;
     left:0px;
 /*    top:-300px;*/
 } 
@@ -349,25 +349,34 @@ article section.features p{
 article section.features p em{
     font-style:normal;
     font-family: 'Museo500', sans-serif;
-}                                    
+}  
+
+article img.arrow.leave{
+    margin-top:10px; 
+    cursor:pointer;
+}                                  
 
 article img.arrow.detail{
+    position:relative;
     opacity:0.01;            
     border:none;
     height:29px;
     width:100px;
+    margin-top:3px; 
     margin-left:0px;
-    margin-top:10px;
     cursor:pointer;
+    z-index:1000;
 }                              
 
 article div.tooltip-scroll{
+    position:relative;
     width:210px;
     height:58px;
     margin-top:3px;
     margin-left:-5px;
     background:url("/images/icon_tooltip_detail.png") no-repeat;
-    display:none;
+    display:none; 
+    z-index:2000;
 }
 /*  end article universal       */
 
@@ -463,12 +472,31 @@ article#asa section.intro header h1 em{
 }  
 /*  end asa article*/    
 
-/* start clep ariticle */
+/* start clep article */
 article#clep section.intro{
     padding-top:40px;
 }
+/* end clep article*/
 
-/* end clep ariticle*/
+/* start sia article*/ 
+article#sia section.intro{
+    padding-top:20px;
+}                
+
+article#sia section.intro header h1{
+    font-family: 'Museo500', sans-serif;
+    font-size:26px;
+    color:#3b663f;
+    padding-top:20px;
+    padding-bottom:23px;
+} 
+
+article#sia section.intro header h1 em{
+    font-size:35px;
+    color:#303030;
+}
+
+/* end sia article */
 
 footer{
     font-weight:normal;

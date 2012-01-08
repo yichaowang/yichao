@@ -28,6 +28,10 @@
 						<p>Renewal Body Bootcamp is a boutique gym with customer mainly from the city. The new business needed a website to attract potential customers as well as managing a series of specialty classes with specific measurement.</p>
 						<div class="clear"></div>
 						<div class="grid_1 alpha omega">
+							<a target="_target" href="http://www.renewalbodybootcamp.com"><img class="arrow leave" src="/images/icon_arrow_bluecircle_solid_leave.png"/></a>
+						</div>
+						<div class="clear"></div>
+						<div class="grid_1 alpha omega">
 							<img class="arrow detail" src="/images/icon_arrow_bluecircle_solid_down.png"/>
 						</div>
 						<div class="clear"></div>            
@@ -154,6 +158,10 @@
 					<header class="grid_6">
 						<h1>Michigan State University<br><em>Accounting Student Association.</em></h1>
 						<p>Michigan State University Accounting Student Association is the biggest student organization in the Eli Broad Business College. The student organization need a clean and simple website that represents its professional nature.</p>  
+						<div class="clear"></div>
+						<div class="grid_1 alpha omega">
+							<a target="_target" href="http://www.msuasa.com"><img class="arrow leave" src="/images/icon_arrow_bluecircle_solid_leave.png"/></a>
+						</div>
 						<div class="clear"></div>
 						<div class="grid_1 alpha omega">
 							<img class="arrow detail" src="/images/icon_arrow_bluecircle_solid_down.png"/>
@@ -285,7 +293,7 @@
 		  	  	<section class="intro">
 					<header class="grid_6">
 						<h1><em>Clepsydra.<br></em>Online Timesheet.</h1>
-						<p>Clepsydra Time sheet. Michigan State University Accounting Student Association is the biggest student organization in the Eli Broad Business College. The student organization need a clean and simple website that represents its professional nature.</p>
+						<p>The State News managers need a more efficient way to track student employee's time. The challenge to make a online timesheet was </p>
 						<div class="clear"></div>
 						<div class="grid_1 alpha omega">
 							<img class="arrow detail" src="/images/icon_arrow_bluecircle_solid_down.png"/>
@@ -308,17 +316,19 @@
 			<div class="container_16">
 		  	  	<section class="intro">
 					<header class="grid_6">
-						<h1><em>Michigan State University<br></em>Student Investment Association</h1>
-						<p>Student Investment Association Website</p>
+						<h1>Michigan State University</br><em>Student Investment Association</em></h1>
+						<p>Michigan State University Student Investment Association is the biggest student organization in the Finance Department of Eli Broad Business College. The organization needed a website to be the one-stop shop of all the recent updates about the organization. Online payment and member registration &amp management can also be overseen online.</p>
+						<div class="clear"></div>
 						<div class="grid_1 alpha omega">
 							<img class="arrow detail" src="/images/icon_arrow_bluecircle_solid_down.png"/>
-						</div>            
+						</div>
+						<div class="clear"></div>            
 						<div class="grid_5 alpha omega">
 							<div class="tooltip-scroll"></div>
 						</div>
 					</header>
 					<figure class="grid_10">
-						<img src="/images/graphic_rbc_intro.png" alt="graphic"/>
+						<img src="/images/graphic_sia_intro.png" alt="graphic"/>
 					</figure>
 					<div class="clear"></div>
 					<!-- <img class='divider' src='/images/bg_section_divider.png'> -->

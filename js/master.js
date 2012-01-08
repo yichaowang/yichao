@@ -139,17 +139,17 @@ YC.navi = {
                         opacity:1
                     },200);
                 } else if (target == 'resume'){
-                    YC.blink.content.stop(1).animate({"left": (-1)*3840},1500,'easeOutExpo');
-                    $('#blink-slider-activator').css('z-index','-1').animate({
-                        opacity:0.01
-                    },200);
-                    YC.navi.refreshActive((-1)*3840+"px");
-                } else if (target == 'about'){   
                     YC.blink.content.stop(1).animate({"left": (-1)*4800},1500,'easeOutExpo');
                     $('#blink-slider-activator').css('z-index','-1').animate({
                         opacity:0.01
                     },200);
                     YC.navi.refreshActive((-1)*4800+"px");
+                } else if (target == 'about'){   
+                    YC.blink.content.stop(1).animate({"left": (-1)*5760},1500,'easeOutExpo');
+                    $('#blink-slider-activator').css('z-index','-1').animate({
+                        opacity:0.01
+                    },200);
+                    YC.navi.refreshActive((-1)*5760+"px");
                 } 
                 $(window).scrollTop(0);
             }
@@ -163,12 +163,12 @@ YC.navi = {
         if (YC.navi.h_location!=content_pos){  
             if (content_pos == 1 ){
                 this._setActive('nav_home');
-            } else if (content_pos >= 2 && content_pos <= 4 ){
+            } else if (content_pos >= 2 && content_pos <= 5 ){
                 this._setActive('nav_portfolio');
                 this.portfolio_pos = content_pos;
-            } else if (content_pos >= 5 && content_pos <= 5){
-                this._setActive('nav_resume');
             } else if (content_pos >= 6 && content_pos <= 6){
+                this._setActive('nav_resume');
+            } else if (content_pos >= 7 && content_pos <= 7){
                 this._setActive('nav_about');
             }  
             
@@ -360,14 +360,18 @@ YC.arrow = {
             mouseenter: function(){
                 var tooltip = $(this).parent().siblings('.grid_5').children('div.tooltip-scroll');
                 clearInterval(timer_id_detail);  
-                arrow.filter('.detail').stop(1).css('opacity','0.01').animate({'opacity':'1'},100);
+                arrow.filter('.detail').stop(1).animate({'opacity':'1'},100);
                 if (tooltip.css('display')=="none"){
-                    tooltip.show('drop',150);
+                    tooltip.show('drop',150).bind({
+                        click: function(){
+                            $(this).fadeOut(200);
+                        }
+                    });
                 }
             },
             mouseleave: function(){
                 var tooltip = $(this).parent().siblings('.grid_5').children('div.tooltip-scroll');
-                arrow.filter('.detail').stop(1).css('opacity','0.01').animate({'opacity':'1'},2000);
+                arrow.filter('.detail').stop(1).css('opacity','1').animate({'opacity':'0.01'},2000);
                 timer_id_detail = setInterval(function(){YC.arrow.flashing(arrow.filter('.detail'),4000)},2000);    
                 if (tooltip.css('display')!="none"){
                     tooltip.hide('drop',150);
