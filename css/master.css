@@ -352,17 +352,22 @@ article section.features p em{
 }  
 
 article img.arrow.leave{
+    border-left: 3px solid #fff;
+    margin-left:10px;
     margin-top:10px; 
     cursor:pointer;
-}                                  
+} 
+
+article img.arrow.leave:hover{
+    border-left: 3px solid #08c;
+}                                 
 
 article img.arrow.detail{
     position:relative;
-    opacity:0.01;            
-    border:none;
+    border:3px solid #fff;    
     height:29px;
     width:100px;
-    margin-top:3px; 
+    margin-top:10px; 
     margin-left:0px;
     cursor:pointer;
     z-index:1000;
