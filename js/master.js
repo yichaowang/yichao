@@ -135,7 +135,6 @@ YC.navi = {
                     $('header#navi.notransform').removeClass('notransform');
                     YC.navi.transform('slideshow');   
                     YC.blink._self.slider('value',0);
-                    
                 } else if (target == 'portfolio'){
                     $('header#navi.notransform').removeClass('notransform');
                     YC.navi.transform('slideshow');   
@@ -188,9 +187,14 @@ YC.navi = {
         }
     },
     
-    _setActive: function(nav_ele){
-        $('header#navi a.active').stop(1).animate({'color':'#030303', 'background-color':'#fff'},500).removeClass('active');
-        $('#'+nav_ele+' a').stop(1).animate({'color':'#fff', 'background-color':'#08f'},500).addClass('active');
+    _setActive: function(nav_ele){             
+        if (nav_ele == 'nav_about' || nav_ele == 'nav_resume'){
+            $('header#navi a.active').stop(1).animate({'color':'#fff', 'background-color':'#303030'},500).removeClass('active');
+             $('#'+nav_ele+' a').stop(1).animate({'color':'#fff', 'background-color':'#08f'},500).addClass('active');
+        } else {
+             $('header#navi a.active').stop(1).animate({'color':'#303030', 'background-color':'#fff'},500).removeClass('active');
+             $('#'+nav_ele+' a').stop(1).animate({'color':'#fff', 'background-color':'#08f'},500).addClass('active');
+        }
     },
     
     landingFlash: function(){
