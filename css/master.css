@@ -61,7 +61,8 @@ h1,h2,h3,h4,h5,h6,p{
 
 a{
     text-decoration:none;
-    color:#0088cc;
+    color:#0088cc; 
+    outline:none;
 }
 
 a:hover{
