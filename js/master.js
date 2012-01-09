@@ -132,8 +132,13 @@ YC.navi = {
             click: function(){
                 var target = $(this).text().toLowerCase()
                 if (target == 'home'){
-                    YC.blink._self.slider('value',0)
+                    $('header#navi.notransform').removeClass('notransform');
+                    YC.navi.transform('slideshow');   
+                    YC.blink._self.slider('value',0);
+                    
                 } else if (target == 'portfolio'){
+                    $('header#navi.notransform').removeClass('notransform');
+                    YC.navi.transform('slideshow');   
                     YC.blink._self.slider('value',960*(YC.navi.portfolio_pos-1));
                     $('#blink-slider-activator').css('z-index','100').animate({
                         opacity:1
@@ -142,13 +147,19 @@ YC.navi = {
                     YC.blink.content.stop(1).animate({"left": (-1)*4800},1500,'easeOutExpo');
                     $('#blink-slider-activator').css('z-index','-1').animate({
                         opacity:0.01
-                    },200);
+                    },200,function(){
+                        YC.navi.transform('reader');
+                        $('header#navi').addClass('notransform');
+                    });
                     YC.navi.refreshActive((-1)*4800+"px");
                 } else if (target == 'about'){   
                     YC.blink.content.stop(1).animate({"left": (-1)*5760},1500,'easeOutExpo');
                     $('#blink-slider-activator').css('z-index','-1').animate({
                         opacity:0.01
-                    },200);
+                    },200,function(){
+                        YC.navi.transform('reader');
+                        $('header#navi').addClass('notransform');
+                    });
                     YC.navi.refreshActive((-1)*5760+"px");
                 } 
                 $(window).scrollTop(0);
@@ -203,7 +214,7 @@ YC.navi = {
     }, 
      
     transform: function(status){
-        if (!$('header#navi').hasClass(status)){
+        if (!$('header#navi').hasClass(status) && !$('header#navi').hasClass('notransform')){
             if (status=='reader'){
                 YC.navi.transToReader();
             } else if (status=='slideshow'){
@@ -292,13 +303,7 @@ YC.navi = {
         
         $('article section.intro').animate({
             'height': $(window).innerHeight()-200
-        },200);
-        
-        // $('article section.intro img.divider').animate({
-        //             'opacity':0.01
-        //         },200, function(){
-        //             
-        //         });
+        },200);      
         
         $('#blink-slider-activator').css('z-index','100').animate({
             opacity:1
@@ -359,7 +364,6 @@ YC.arrow = {
         arrow.filter('.detail').bind({
             mouseenter: function(){
                 var tooltip = $(this).parent().siblings('.grid_5').children('div.tooltip-scroll');
-                $(this).css('border-left','3px solid #b4e3fa');
                 // clearInterval(timer_id_detail);  
                 // arrow.filter('.detail').stop(1).animate({'opacity':'1'},100);
                 if (tooltip.css('display')=="none"){
@@ -373,17 +377,21 @@ YC.arrow = {
             
             mouseleave: function(){
                 var tooltip = $(this).parent().siblings('.grid_5').children('div.tooltip-scroll');
-                $(this).css('border-left','3px solid #fff');
                 // arrow.filter('.detail').stop(1).css('opacity','1').animate({'opacity':'0.01'},2000);
                 // timer_id_detail = setInterval(function(){YC.arrow.flashing(arrow.filter('.detail'),4000)},2000);    
                 if (tooltip.css('display')!="none"){
                     tooltip.hide('drop',150);
                 }
-            },  
-            
-            click: function(){
+            },
+              
+            mousedown: function(){
                 var tooltip = $(this).parent().siblings('.grid_5').children('div.tooltip-scroll');
-                tooltip.stop(1).css('background-color','#08c').animate({'background-color':"#fff"},300);
+                tooltip.stop(1).css('background-color','#08c');
+            },
+            
+            mouseup: function(){
+                var tooltip = $(this).parent().siblings('.grid_5').children('div.tooltip-scroll');
+                tooltip.stop(1).animate({'background-color':"#fff"},300);
             }
         })
     },

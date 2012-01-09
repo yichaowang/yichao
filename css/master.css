@@ -352,26 +352,43 @@ article section.features p em{
 }  
 
 article img.arrow.leave{
-    border-left: 3px solid #fff;
+    border: 1px solid #fff;
+    height:29px;
+    width:90px;
     margin-left:10px;
     margin-top:10px; 
     cursor:pointer;
 } 
 
 article img.arrow.leave:hover{
-    border-left: 3px solid #08c;
+    border: 1px solid #08c;
+}
+
+article img.arrow.leave:active{
+    margin-top:11px;
+    margin-left:11px;
 }                                 
 
 article img.arrow.detail{
     position:relative;
-    border:3px solid #fff;    
+    border:1px solid #fff;    
     height:29px;
-    width:100px;
+    width:90px;
     margin-top:10px; 
     margin-left:0px;
     cursor:pointer;
     z-index:1000;
-}                              
+}
+
+article img.arrow.detail:hover{
+    border: 1px solid #08c;
+}
+
+article img.arrow.detail:active{
+    margin-top:11px;
+    margin-left:1px;
+}
+                              
 
 article div.tooltip-scroll{
     position:relative;
@@ -382,6 +399,12 @@ article div.tooltip-scroll{
     background:url("/images/icon_tooltip_detail.png") no-repeat;
     display:none; 
     z-index:2000;
+}  
+
+article div.denote{
+    background-color: #FFF9D5;
+    border: 1px solid #EAE4C3;
+    margin-bottom:20px;
 }
 /*  end article universal       */
 
@@ -419,8 +442,6 @@ article#site-intro img.arrow.mcontent{
     margin-top:-8px;
     cursor:pointer;
 } 
-
-
  
 /*  end site intro article   */
 
@@ -480,6 +501,18 @@ article#asa section.intro header h1 em{
 /* start clep article */
 article#clep section.intro{
     padding-top:40px;
+}               
+
+article#clep section.intro header h1{
+    padding-top:30px;
+}           
+
+article#clep section.features h1.clep{
+    color:#08c;
+}             
+
+article#clep section.features p.defination{
+    color:#999;
 }
 /* end clep article*/
 
@@ -500,8 +533,54 @@ article#sia section.intro header h1 em{
     font-size:35px;
     color:#303030;
 }
+/* end sia article */    
 
-/* end sia article */
+/* start about me article*/ 
+article#about section.about{
+    margin-top:-30px;
+    margin-bottom:80px;
+}
+
+article#about section.about header h1{
+    font-family: 'Museo500', sans-serif;
+    font-size:35px;
+    margin-bottom:23px;
+    color:#303030;
+}            
+
+article#about section.about header h1 em{
+    font-style:normal;
+    color:#08c;
+}
+
+ 
+article#about section.about header{
+    margin-top:0px;
+}                  
+
+article#about section.about header img{
+    margin-bottom:60px;
+} 
+
+article#about section.about h1{
+    font-size:14px;
+    margin:8px 0px;
+    font-family: 'Museo500', sans-serif;
+}     
+
+article#about section.about p{
+    color:#666;
+    font-size:12px;
+    line-height:18px;
+    margin-bottom:25px;
+} 
+
+article section.features p em{
+    font-style:normal;
+    font-family: 'Museo500', sans-serif;
+}
+
+/* end about me article*/
 
 footer{
     font-weight:normal;
