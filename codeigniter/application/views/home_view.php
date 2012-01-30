@@ -295,6 +295,9 @@
 						<div class="clear"></div>
 						<div class="grid_2 alpha omega">
 							<img class="arrow detail" src="/images/icon_arrow_bluecircle_solid_down.png"/>
+						</div>     
+						<div class="grid_2 alpha omega">
+							<a target="_target" href="http://clepsydra-demo.yichaowang.com"><img class="arrow leave" src="/images/icon_arrow_bluecircle_solid_leave.png"/></a>
 						</div>
 						<div class="clear"></div>            
 						<div class="grid_5 alpha omega">
@@ -302,7 +305,7 @@
 						</div>
 					</header>
 					<figure class="grid_10">
-						<img src="/images/graphic_clep	_intro.png" alt="graphic"/>
+						<img src="/images/graphic_clep_intro.png" alt="graphic"/>
 					</figure>
 					<div class="clear"></div>
 					<!-- <img class='divider' src='/images/bg_section_divider.png'> -->
@@ -372,10 +375,6 @@
 					<div class="prefix_1 grid_11 feature-detail">
 						<img class="illustration" src="/images/graphic_clep_back_editing.png" alt="graphic">
 					</div>
-					<div class="clear"></div>
-					<div class="grid_16 denote">
-					&#42&#42 This project was still working in progress when I departing the organization due to graduation. The site is available under local development server. 
-					</div> 
 					<div class="clear"></div>
 				</section> 
 			</div>

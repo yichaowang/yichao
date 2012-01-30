@@ -1,13 +1,19 @@
 var YC = YC || {};  
 
 YC = {
-    blink:{},
+    // everything about the horizotal sliding navigation
+    blink:{},                                           
     preloading:{},
+    // reader and slideshow type navigation control
     navi:{},
-    yscroll:{},
+    // scrolltop listener
+    yscroll:{},          
+    // blinking arrow control
     arrow:{},
-    tooltip:{},
-    zoom:{},
+    tooltip:{},              
+    // picture pop-up
+    zoom:{},         
+    // footer height adjustment base on broswer size
     footer:{}
 };
 
@@ -366,8 +372,9 @@ YC.arrow = {
         
         arrow.filter('.detail').bind({
             mouseenter: function(){
-                var tooltip = $(this).parent().siblings('.grid_5').children('div.tooltip-scroll');
-                tooltip.show('drop',150).bind({
+                var tooltip = $(this).parent().siblings('.grid_5').find('div.tooltip-scroll');
+                console.log(tooltip);
+                tooltip.stop(1).show('drop',150).bind({
                     click: function(){
                         $(this).stop(1).fadeOut(200);
                     },
@@ -377,16 +384,15 @@ YC.arrow = {
                         }
                     }
                 }); 
-
             },
               
             mousedown: function(){
-                var tooltip = $(this).parent().siblings('.grid_5').children('div.tooltip-scroll');
+                var tooltip = $(this).parent().siblings('.grid_5').find('div.tooltip-scroll');
                 tooltip.stop(1).css('background-color','#08c');
             },
             
             mouseup: function(){
-                var tooltip = $(this).parent().siblings('.grid_5').children('div.tooltip-scroll');
+                var tooltip = $(this).parent().siblings('.grid_5').find('div.tooltip-scroll');
                 tooltip.stop(1).animate({'background-color':"#fff"},300);
             }
         })

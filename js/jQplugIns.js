@@ -722,11 +722,11 @@ $.fn.fancyZoom = function(options){
   function show(e) {
     if (zooming) return false;
 		zooming         = true;
-		var content_div = $($(this).attr('href'));
+	var content_div = $($(this).attr('href'));
   	var zoom_width  = options.width;
-		var zoom_height = options.height;
+	var zoom_height = options.height;
 
-		var width       = window.innerWidth || (window.document.documentElement.clientWidth || window.document.body.clientWidth);
+	var width       = window.innerWidth || (window.document.documentElement.clientWidth || window.document.body.clientWidth);
   	var height      = window.innerHeight || (window.document.documentElement.clientHeight || window.document.body.clientHeight);
   	var x           = window.pageXOffset || (window.document.documentElement.scrollLeft || window.document.body.scrollLeft);
   	var y           = window.pageYOffset || (window.document.documentElement.scrollTop || window.document.body.scrollTop);
