@@ -427,7 +427,7 @@
 					</header>
 					<div class="clear"></div>
 					<div class="grid_10">
-						<h1>Little Bit of History</h1>
+						<h1>Coming soon ...</h1>
 						
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla metus turpis, egestas vitae molestie adipiscing, rhoncus eu ante. Quisque cursus metus non mi malesuada sagittis. Duis ornare ante sagittis augue porttitor varius. Phasellus ultrices lacus lacus, sed vehicula ligula. Morbi feugiat lectus non sem faucibus dapibus. Duis facilisis ipsum eu ipsum vehicula in pulvinar diam euismod. Ut massa mi, tincidunt sit amet congue ut, scelerisque nec mi.</p>
                         <p>
