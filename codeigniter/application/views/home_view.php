@@ -20,6 +20,100 @@
 			</div>
 		</article>      
 		
+		 <article id="clep" class="portfolio">
+				<div class="container_16">
+			  	  	<section class="intro">
+						<header class="grid_6">
+							<h1><em>Clepsydra.<br></em>Online Timesheet.</h1>
+							<p>The State News managers need a more efficient way to track student employees' time. The challenge of making a online timesheet was given to the web team at The State News. </p>
+							<div class="clear"></div>
+							<div class="grid_2 alpha omega">
+								<img class="arrow detail" src="/images/icon_arrow_bluecircle_solid_down.png"/>
+							</div>     
+							<div class="grid_2 alpha omega">
+								<a target="_target" href="http://clepsydra-demo.yichaowang.com"><img class="arrow leave" src="/images/icon_arrow_bluecircle_solid_leave.png"/></a>
+							</div>
+							<div class="clear"></div>            
+							<div class="grid_5 alpha omega">
+								<div class="tooltip-scroll"></div>
+							</div>
+						</header>
+						<figure class="grid_10">
+							<img src="/images/graphic_clep_intro.png" alt="graphic"/>
+						</figure>
+						<div class="clear"></div>
+						<!-- <img class='divider' src='/images/bg_section_divider.png'> -->
+					</section>
+					<section class="features">
+						<header class="grid_16">
+							<h1>Summary</h1>
+						</header>
+						<div class="clear"></div>
+						<div class="grid_6 feature-detail">
+							<h1 class="clep">Clep•sy•dra.</h1>
+							<p class="defination">noun. <i>klep-si-druh</i><br>1. An ancient device for measuring time by the regulated flow of water or mercury through a small aperture.</p>
+							<p>As part of the web team at <a href="http://statenews.com/">The State News</a>, I was responsible for programming and co-designing the project.</p>
+							<p>On the backend side, a in-house php framework, <a href="http://thesnews.github.com/Gryphon/api/foundry/index/General.html">Foundry 6</a>, was used for MVC, and a intensive amount of PHP date and time related functions were used for time calculation and conversion.</p> <p>On the front side, the application uses <a href="http://twig.sensiolabs.org/">Twig</a> as the tempting engine, and utilized <a href="http://mootools.net/">MooTool</a> javascript framework for clock, Ajax, and other user friendly interface.</p>   
+						</div>                                                           
+						<div class="prefix_1 grid_9 feature-detail">
+							<img class="illustration" src="/images/graphic_clep_summary.png" alt="graphic">
+						</div>
+						<div class="clear"></div>
+					</section>  
+					<section class="features">
+						<header class="grid_16">
+	                		<h1>Employee Panel</h1>
+	                	</header>
+						<div class="clear"></div>
+						<div class="grid_5 feature-detail">
+							<h1>The information central of your work life.</h1>
+							<p>The main page of the employee panel give you every single one of your time card in one glance. Hovering the specific card will give you the start and end time of that card. The page accumulates as your work life in the organization increase. All timecard was stored in the database as the format of (id, timestamp_in, timestamp_out, user_id). eg.(5, 1306108680, 1306108680, 2). All calculations was made when the application load using php and javascript.</p>   
+						</div>
+						<div class="prefix_1 grid_10 feature-detail">
+							<img class="illustration" src="/images/graphic_clep_front_main.png" alt="graphic">
+						</div>
+						<div class="clear"></div>
+						<div class="grid_5 feature-detail">
+							<h1>Say hi to your co-workers.</h1>
+							<p>Other Users panel giving you the knowledge of who is currently working and how long they have been here for. No more yelling or building searching.</p>   
+						</div>
+						<div class="prefix_1 grid_10 feature-detail">
+							<img class="illustration" src="/images/graphic_clep_front_other.png" alt="graphic">
+						</div>
+						<div class="clear"></div>
+					</section>      
+					<section class="features">
+						<header class="grid_16">
+	                		<h1>Administration Panel</h1>
+	                	</header>
+						<div class="clear"></div>
+						<div class="grid_4 feature-detail">
+							<h1>All-in-one at a Glance.</h1>
+							<p>The admin panel gives administrator the ultimate power all in one place. </p>
+							<p>The panel provides two viewing modes:<br> Under the Observing Mode, person with highlighted name are currently clocked in. Most common total hours are listed in columns after the name.</p>
+						</div>
+						<div class="prefix_1 grid_11 feature-detail">
+							<img class="illustration" src="/images/graphic_clep_back_obtable.png" alt="graphic">
+						</div>
+						<div class="clear"></div>
+						<div class="grid_4 feature-detail">
+							<p>New user can be added by start typing in the bottom right "ADD NEW" box. A form will loaded through Ajax attach at the bottom of the table providing all the input for the new profile. </p> 
+						</div>
+						<div class="prefix_1 grid_11 feature-detail">
+							<img class="illustration" src="/images/graphic_clep_back_addnew.png" alt="graphic">
+						</div>
+						<div class="clear"></div>
+						<div class="grid_4 feature-detail">
+							<p>Under the Editing Mode, after click on employee's name, his or her detail time will be loaded into a table with search options on the bottom right corner through ajax, along with the profile on the left ready for editing. All the time duration was calculated on the fly using the basic timestamp that stored in the mySQL database, which is (id, timestamp_in, timestamp_out, user_id). eg.(5, 1306108680, 1306108680, 2).</p> 
+						</div>
+						<div class="prefix_1 grid_11 feature-detail">
+							<img class="illustration" src="/images/graphic_clep_back_editing.png" alt="graphic">
+						</div>
+						<div class="clear"></div>
+					</section> 
+				</div>
+			</article>
+		
 		<article id="rbc" class="portfolio">
 			<div class="container_16">
 				<section class="intro">
@@ -47,7 +141,7 @@
 				<section class="features">
 					<div id="rbc-backend">
                 		<header class="grid_16">
-	                		<h1>User Friendly Back End.</h1>
+	                		<h1>Highlights: User Friendly Back End.</h1>
 	                	</header>
 						<div class="clear"></div>
 						<div class="grid_5 feature-detail">
@@ -183,7 +277,7 @@
 						<div class="grid_5 feature-detail">
 							<h1>Clean. Simple. Professional. <em>Delivered.</em></h1>
 							<p>The Accounting Student Association is the biggest student organization in the Eli Broad Business College of Michigan State University. With over 150 active members attending around 10 meetings per semester, the organization need a clean, professional looking, and highly functional website. As a member of the executive board, I designed and programed the website from scratch.
-							<p>As the business nature of the organization, the design was focused on simple, clean, and informative. White space, gradient, and multi-column was used to achieve the goal. The site is powered by <a href="http://en.wikipedia.org/wiki/LAMP_(software_bundle)">LAMP</a> with no framework. <a href="http://960.gs/">960 grid system</a> for CSS was used for clean markup. SQL query such as table joint was used to solve some of the business logic.</p>    
+							<p>As the business nature of the organization, the design was focused on simple, clean, and informative. White space, gradient, and multi-column was used to achieve the goal. The site is powered by <a href="http://en.wikipedia.org/wiki/LAMP_(software_bundle)">LAMP</a>.&nbsp;&nbsp;<a href="http://960.gs/">960 grid system</a> for CSS was used for clean markup. SQL query such as table joint was used to solve some of the business logic.</p>    
 						    <p>After maintaining and communicating about the website for two years, I was very honored to received the Outstanding Member of the Year award. Only one person of the organization is award every year and is presented by the MSU accounting department.</p>   
 						</div>
 						<div class="prefix_1 grid_10 feature-detail">
@@ -286,100 +380,6 @@
 			</div>
 		</article>
 		
-		<article id="clep" class="portfolio">
-			<div class="container_16">
-		  	  	<section class="intro">
-					<header class="grid_6">
-						<h1><em>Clepsydra.<br></em>Online Timesheet.</h1>
-						<p>The State News managers need a more efficient way to track student employees' time. The challenge of making a online timesheet was given to the web team at The State News. </p>
-						<div class="clear"></div>
-						<div class="grid_2 alpha omega">
-							<img class="arrow detail" src="/images/icon_arrow_bluecircle_solid_down.png"/>
-						</div>     
-						<div class="grid_2 alpha omega">
-							<a target="_target" href="http://clepsydra-demo.yichaowang.com"><img class="arrow leave" src="/images/icon_arrow_bluecircle_solid_leave.png"/></a>
-						</div>
-						<div class="clear"></div>            
-						<div class="grid_5 alpha omega">
-							<div class="tooltip-scroll"></div>
-						</div>
-					</header>
-					<figure class="grid_10">
-						<img src="/images/graphic_clep_intro.png" alt="graphic"/>
-					</figure>
-					<div class="clear"></div>
-					<!-- <img class='divider' src='/images/bg_section_divider.png'> -->
-				</section>
-				<section class="features">
-					<header class="grid_16">
-						<h1>Summary</h1>
-					</header>
-					<div class="clear"></div>
-					<div class="grid_6 feature-detail">
-						<h1 class="clep">Clep•sy•dra.</h1>
-						<p class="defination">noun. <i>klep-si-druh</i><br>1. An ancient device for measuring time by the regulated flow of water or mercury through a small aperture.</p>
-						<p>As part of the web team at <a href="http://statenews.com/">The State News</a>, I was responsible for programming and co-designing the project.</p>
-						<p>On the backend side, a in-house php framework, <a href="http://thesnews.github.com/Gryphon/api/foundry/index/General.html">Foundry 6</a>, was used for MVC, and a intensive amount of PHP date and time related functions were used for time calculation and conversion.</p> <p>On the front side, the application uses <a href="http://twig.sensiolabs.org/">Twig</a> as the tempting engine, and utilized <a href="http://mootools.net/">MooTool</a> javascript framework for clock, Ajax, and other user friendly interface.</p>   
-					</div>                                                           
-					<div class="prefix_1 grid_9 feature-detail">
-						<img class="illustration" src="/images/graphic_clep_summary.png" alt="graphic">
-					</div>
-					<div class="clear"></div>
-				</section>  
-				<section class="features">
-					<header class="grid_16">
-                		<h1>Employee Panel</h1>
-                	</header>
-					<div class="clear"></div>
-					<div class="grid_5 feature-detail">
-						<h1>The information central of your life at work.</h1>
-						<p>The main page of the employee panel give you every single one of your time card in one glance. Hovering the specific card will give you the start and end time of that card. The page accumulates as your work life in the organization increase. All timecard was stored in the database as the format of (id, timestamp_in, timestamp_out, user_id). eg.(5, 1306108680, 1306108680, 2). All calculations was made when the application load using php and javascript.</p>   
-					</div>
-					<div class="prefix_1 grid_10 feature-detail">
-						<img class="illustration" src="/images/graphic_clep_front_main.png" alt="graphic">
-					</div>
-					<div class="clear"></div>
-					<div class="grid_5 feature-detail">
-						<h1>Say hi to your co-workers.</h1>
-						<p>Other Users panel giving you the knowledge of who is currently working and how long they have been here for. No more yelling or building searching.</p>   
-					</div>
-					<div class="prefix_1 grid_10 feature-detail">
-						<img class="illustration" src="/images/graphic_clep_front_other.png" alt="graphic">
-					</div>
-					<div class="clear"></div>
-				</section>      
-				<section class="features">
-					<header class="grid_16">
-                		<h1>Administration Panel</h1>
-                	</header>
-					<div class="clear"></div>
-					<div class="grid_4 feature-detail">
-						<h1>All-in-one at a Glance.</h1>
-						<p>The admin panel gives administrator the ultimate power all in one place. </p>
-						<p>The panel provides two viewing modes:<br> Under the Observing Mode, person with highlighted name are currently clocked in. Most common total hours are listed in columns after the name.</p>
-					</div>
-					<div class="prefix_1 grid_11 feature-detail">
-						<img class="illustration" src="/images/graphic_clep_back_obtable.png" alt="graphic">
-					</div>
-					<div class="clear"></div>
-					<div class="grid_4 feature-detail">
-						<p>New user can be added by start typing in the bottom right "ADD NEW" box. A form will loaded through Ajax attach at the bottom of the table providing all the input for the new profile. </p> 
-					</div>
-					<div class="prefix_1 grid_11 feature-detail">
-						<img class="illustration" src="/images/graphic_clep_back_addnew.png" alt="graphic">
-					</div>
-					<div class="clear"></div>
-					<div class="grid_4 feature-detail">
-						<p>Under the Editing Mode, after click on employee's name, his or her detail time will be loaded into a table with search options on the bottom right corner through ajax, along with the profile on the left ready for editing. All the time duration was calculated on the fly using the basic timestamp that stored in the mySQL database, which is (id, timestamp_in, timestamp_out, user_id). eg.(5, 1306108680, 1306108680, 2).</p> 
-					</div>
-					<div class="prefix_1 grid_11 feature-detail">
-						<img class="illustration" src="/images/graphic_clep_back_editing.png" alt="graphic">
-					</div>
-					<div class="clear"></div>
-				</section> 
-			</div>
-		</article>
-		
 		<article id="sia" class="portfolio">
 			<div class="container_16">
 		  	  	<section class="intro">
@@ -405,16 +405,97 @@
 		
 		<article id="resume" class="resume">
 			<div class="container_16">
-				<section class="intro">
-					<header class="grid_6">
-						<h1>Resume <em>Me.</em></h1>
-						<p>Coming Soon.</p>
+				<section>
+					<header class="prefix_1 grid_6">
+						<h1>R&eacute;su<em>m&eacute;.</em></h1>
 					</header>
+					<div class="prefix_4 grid_4 resume_pdf">
+						<a href="/resume.pdf">Download PDF Version</a>
+					</div>
 					<div class="clear"></div>
 				</section>
-				<section class="detail grid_16">
-                	
-				</section>
+				<div id="resume-container">
+					<div class="prefix_1 grid_3 left">
+						<header>
+							<h1>Yichao Wang</h1>
+							<h2>http://www.yichaowang.com</h2>
+							<h3>yichao@yichaowang.com</h3>
+							<h3>github.com/yichaowang</h3>
+						</header>                    
+						<section class="award">
+                        	<img src="/images/award_resume_mid.png">
+							<p class="award">Outstanding<br/>Member of the Year<br/>2010-2011</p>
+							<aside> &ndash; Michigan State University Accounting Student Association<br/>
+							One person out of 250+ active members is awarded</aside>
+						</section>
+						<section class="testimonial">
+                            <p>
+								&ldquo;I am speechless! It is absolutely amazing! You totally exceeded my expectations on getting so much done in a small time frame... Absolutely blown away!!!&rdquo;
+                            </p> 
+							<aside> &ndash; Jennifer Malinowski,<br/>Founder of Renewal Body Bootcamp
+							</aside>                      
+						</section>
+						<section class="education">
+                        	B.A Information <br>System and Accounting,<br>Michigan State University (2007-2011)<br><br>GPA: Available upon request.<br>Reference: Available upon request<br>(517) 775-****
+						</section>
+					</div>
+					<div class="prefix_1 grid_9 right">
+						<section>
+							<h1 class="first">OBJECTIVE</h1>
+							<p>
+								<b>Front-End Engineer</b> where 4+ years experience of building pixel- perfection UI with responsive/high performance AJAX technology will add value.
+							</p>
+						</section>
+						<section>
+							<h1>SELECT ACCOMPLISHMENTS</h1>
+							<ul>
+								<li>Utilizing cutting-edge technology designed and developed 6+ online applications/websites from MySQL/PHP framework to jQuery/HTML/CSS and resulted in 100% happy clients.</li>
+								<li>Developed cross-browser website/application for start-up gym that generated over $10,000 online sale during the 3-day opening weekend.</li>
+								<li>Created websites/applications for multiple student organizations which tripled their membership and dues, and greatly improved operating efficiency and communication.</li>
+							</ul>
+						</section>
+						<section>
+							<h1>CAREER DRIVER</h1>
+							<p>
+								Taking <b>great passion</b> for enjoyable user experience and understanding of server-side technology to bring irresistible and high performance UI to reality.
+							</p>
+						</section>
+						<section>
+							<h1>TECHNICAL SKILLS</h1>
+							<ul>
+								<li>Expert (#years): OOP JavaScript(3 years), jQuery(3 years), Git/github(3), JSON(2), HTML/CSS(6), HTML5/CSS3(2), Photoshop(5), TextMate(3), Twig-Tempting(2)</li>
+								<li>Advanced (#years): MySQL(4 years), PHP(4 years), Linux(3), CodeIgniter(1), Zend-Framework(2), Cross-Browser Development(2).</li>
+							</ul>
+						</section>
+						<section>
+							<h1>EXPERIENCE</h1>
+							<ul>
+								<li>
+									<b>Frontend developer/UI Designer</b> (2008-2011): The State News, East Lansing, MI. <a href="http://www.statenews.com">[http://www.statenews.com]</a> <a href="http://clepsydra-demo.yichaowang.com">[http://clepsydra-demo.yichaowang.com]</a>
+								</li>
+								<li>
+									<b>Freelancer</b> (2012): Personal Portfolio <a href="http://www.yichaowang.com">[http://www.yichaowang.com]</a>
+								</li>
+								<li>
+									<b>Freelancer</b> (2012): Renewal Body Bootcamp <a href="http://www.renewalbodybootcamp.com">[www.renewalbodybootcamp.com]</a>
+								</li>
+								<li>
+									<b>Vice President of IT</b> (2009-2011): Michigan State University Account Student Association <a href="http://www.msuasa.com">[http://www.msuasa.com]</a>
+								</li>
+								<li>
+									<b>Vice President of IT</b> (2008-2011): Michigan State University Student Investment Association <a href="http://www.msusia.com">[http://www.msusia.com]</a>
+								</li>
+								<li>
+									<b>Computer Science 101 Teaching Assistant</b> Michigan State University. (2008-2009)
+								</li>
+								<li>
+									<b>Interests</b> (#years): Tennis(4), Soccer(4), Ski(2), Basketball(3), Swim(2)
+								</li>
+							</ul>
+						</section>
+					</div>
+					<div class="clear"></div>    
+				</div>
 			</div>
 		</article> 
 		

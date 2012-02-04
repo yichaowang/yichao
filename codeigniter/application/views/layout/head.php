@@ -3,7 +3,8 @@
 <head>
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
 	<META HTTP-EQUIV="CACHE-CONTROL" CONTENT="PUBLIC">
-	<meta name="description" content="The online portfolio of Yichao Wang, Web Developer and Interactive Designer." />
+	<meta name="description" content="The online portfolio of Yichao Wang, Web Developer and Interactive Designer. 王逸超, 逸超, 王" />
+	<meta name="keywords" content="Yichao Wang, Portfolio, Front End, Frontend Engineer, Web Developer, Interactive Designer, Javascript, Aajx, Resume, 王逸超, 逸超, 王">
 	<title>Yichao</title> 
 	<link rel="stylesheet" href="/css/master.css" type="text/css" media="screen">
 	<!--[if lt IE 9]>

@@ -580,8 +580,109 @@ article section.features p em{
     font-style:normal;
     font-family: 'Museo500', sans-serif;
 }
+/* end about me article*/  
 
-/* end about me article*/
+/* start resume article*/ 
+article#resume section header h1{
+    font-family: 'Museo500', sans-serif;
+    font-size:35px;
+    color:#303030;
+    padding-bottom:23px;
+} 
+
+article#resume section header h1 em{
+    font-style:normal;
+    color:#08c;
+}                  
+
+article#resume div.resume_pdf a{
+    display:block;
+    font-size:14px;
+    padding-top:16px;
+    padding-left:10px;
+}
+
+div#resume-container{
+    font-size:14px;
+    margin-bottom:100px;
+}  
+
+div#resume-container div.right{
+    font-family: 'Georgia', serif !important;
+}
+
+div#resume-container div.right section h1{
+    display:block;
+    color:#aaa;
+    letter-spacing:4px;
+    border-top:1px solid #ccc;  
+    border-bottom:1px solid #ddd;
+    margin-bottom:10px;
+    margin-top:25px;
+}
+
+div#resume-container div.right section h1.first{
+    margin-top:5px;
+}
+
+div#resume-container div.right p{ 
+    font-family: 'Georgia', serif !important;
+}
+
+div#resume-container div.right ul li{
+    list-style-type: circle;
+    line-height:1.4;
+    margin-bottom:10px;
+    margin-left:20px;
+}                           
+
+div#resume-container div.left header{
+    font-family: 'Georgia', serif !important;
+}                               
+
+div#resume-container div.left header h1{
+    font-size:24px;
+}
+
+div#resume-container div.left img{
+    
+}
+
+div#resume-container div.left p{
+    font-family: 'Georgia', serif !important;
+    font-size:17px;
+    font-style:italic;
+}
+
+div#resume-container div.left p.award{
+    text-align:center;
+}  
+
+div#resume-container div.left aside{
+    font-family:'OpenSans';
+    text-align:right;
+    font-size:11px;
+    margin-top:4px;
+    line-height:1.4;
+}       
+
+div#resume-container div.left section.award{
+    margin-top:30px;
+}               
+
+div#resume-container div.left section.testimonial{
+    margin-top:30px;
+}
+
+div#resume-container div.left section.education{
+    border-top:1px solid #555;
+    font-family: 'Georgia', serif !important;
+    font-size:13px;
+    padding-top:5px;
+    margin-top:45px;
+}
+/* end resume article*/
+
 
 footer{
     font-weight:normal;

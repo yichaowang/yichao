@@ -14,7 +14,9 @@ YC = {
     // picture pop-up
     zoom:{},         
     // footer height adjustment base on broswer size
-    footer:{}
+    footer:{},
+    // so people dont open stuff they dont want to
+    mailto:{}
 };
 
 YC.blink = {
@@ -461,6 +463,20 @@ YC.footer = {
             }
         })
     }
+}     
+
+YC.mailto = {
+    init: function(){      
+        $('a.mailto').bind({
+            click : function(){
+                console.log('asd');
+                if (confirm("Proceed to your default email application? (eg.Outlook, Mail)")){
+                    window.location = "mailto:yichao@yichaowang.com";
+                } 
+                return false;                   
+            }
+        })
+    }
 }
       
 
@@ -474,4 +490,5 @@ $(document).ready(function() {
     YC.tooltip.init();
     YC.zoom.init();
     YC.footer.init();
+    YC.mailto.init();
 })  
