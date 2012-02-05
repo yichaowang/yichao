@@ -508,17 +508,9 @@
 					</header>
 					<div class="clear"></div>
 					<div class="grid_10">
-						<h1>Coming soon ...</h1>
-						
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla metus turpis, egestas vitae molestie adipiscing, rhoncus eu ante. Quisque cursus metus non mi malesuada sagittis. Duis ornare ante sagittis augue porttitor varius. Phasellus ultrices lacus lacus, sed vehicula ligula. Morbi feugiat lectus non sem faucibus dapibus. Duis facilisis ipsum eu ipsum vehicula in pulvinar diam euismod. Ut massa mi, tincidunt sit amet congue ut, scelerisque nec mi.</p>
-                        <p>
-						Nunc auctor, odio ac aliquet ultrices, eros elit porta risus, ac blandit est neque consequat elit. Vivamus varius, dolor at interdum mollis, neque orci tincidunt lectus, ut euismod nibh mauris in magna. Donec quis quam turpis, vitae iaculis diam. Donec id est justo, ac tempor leo. Nullam eget ipsum sit amet lacus ullamcorper consectetur. Integer sed sem non risus lobortis dignissim et in quam. Phasellus lacinia magna eu enim mattis porttitor. In scelerisque volutpat fringilla.</p>
-
-						<p>Phasellus ut odio diam, eget mattis metus. Quisque ornare nulla erat. Cras in mi turpis. Proin pretium varius dolor, et dictum turpis pharetra id. Etiam fermentum facilisis mi, ac euismod lacus molestie ac. Fusce ac nibh justo, quis consequat tortor. Integer eget augue in nunc aliquet egestas cursus id urna. Mauris dolor sem, tincidunt sed dictum sed, aliquam eu elit. Praesent condimentum odio felis. Aliquam erat volutpat. Proin sed libero at odio ullamcorper sagittis. Praesent vestibulum auctor odio in volutpat. Curabitur fermentum risus id eros sagittis cursus. Nam tincidunt consectetur ante et pellentesque.</p>
-
-						<p>Fusce dictum hendrerit magna, sit amet egestas diam euismod id. Fusce aliquam fermentum est, non ornare sapien gravida et. Suspendisse potenti. Integer feugiat nibh dui, sit amet rutrum augue. Nullam dolor tellus, venenatis in pretium et, imperdiet eu eros. In pretium lacus nec metus rutrum semper. Aenean congue, velit et facilisis ultrices, risus dolor bibendum lectus, vel elementum enim mi id dolor. Phasellus eros mauris, ornare in rhoncus quis, porta ut elit. Donec gravida volutpat orci, nec varius turpis porta vitae. Aliquam facilisis scelerisque ante nec aliquet. Aliquam justo libero, pharetra id varius vestibulum, interdum in felis. Sed aliquet dapibus consectetur. Vivamus quis lectus ut nibh egestas tristique.</p>
-
-						<p>Cras imperdiet pulvinar velit mattis vehicula. Nulla facilisi. Praesent eu varius turpis. Nam nunc nibh, auctor non consectetur ac, pulvinar eget lectus. Nunc sit amet neque eu libero mollis imperdiet. Donec vitae arcu ut magna rutrum imperdiet non gravida nunc. Mauris et justo ut est posuere suscipit vel in mi. Cras ullamcorper lobortis ligula vel volutpat. Etiam rhoncus porta libero, quis vestibulum libero auctor eu. Nam vestibulum, quam vel aliquam pharetra, lacus diam elementum metus, a congue velit mi eu nunc. Curabitur et metus ac augue placerat venenatis. Etiam in urna in nunc pellentesque sodales. Morbi luctus bibendum turpis id feugiat. Pellentesque odio eros, ultrices interdum sodales quis, imperdiet quis dolor. Proin tempor scelerisque porta.</p>
+						<h1>Life,</h1>
+						<p>I continue to find my greatest pleasure in the work of creating than replicating, thus I code, design, and breath with passion everyday.</p>
+                        <p>"I never did a day's work in my life. It was all fun." - Thomas A. Edison</p>
 					</div> 
 					<div class="clear"></div>
 				</section>
