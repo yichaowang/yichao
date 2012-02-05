@@ -276,7 +276,7 @@
 						<div class="clear"></div>
 						<div class="grid_5 feature-detail">
 							<h1>Clean. Simple. Professional. <em>Delivered.</em></h1>
-							<p>The Accounting Student Association is the biggest student organization in the Eli Broad Business College of Michigan State University. With over 150 active members attending around 10 meetings per semester, the organization need a clean, professional looking, and highly functional website. As a member of the executive board, I designed and programed the website from scratch.
+							<p>The Accounting Student Association is the biggest student organization in the Eli Broad Business College of Michigan State University. With over 150 active members attending around 10 meetings per semester, the organization need a clean, professional looking, and highly functional website. As a member of the executive board, I designed and programed the website from scratch.</p>
 							<p>As the business nature of the organization, the design was focused on simple, clean, and informative. White space, gradient, and multi-column was used to achieve the goal. The site is powered by <a href="http://en.wikipedia.org/wiki/LAMP_(software_bundle)">LAMP</a>.&nbsp;&nbsp;<a href="http://960.gs/">960 grid system</a> for CSS was used for clean markup. SQL query such as table joint was used to solve some of the business logic.</p>    
 						    <p>After maintaining and communicating about the website for two years, I was very honored to received the Outstanding Member of the Year award. Only one person of the organization is award every year and is presented by the MSU accounting department.</p>   
 						</div>
@@ -390,6 +390,9 @@
 						<div class="grid_2 alpha omega">
 							<img class="arrow detail" src="/images/icon_arrow_bluecircle_solid_down.png"/>
 						</div>
+						<div class="grid_2 alpha omega">
+							<a target="_target" href="http://msusia-demo.yichaowang.com"><img class="arrow leave" src="/images/icon_arrow_bluecircle_solid_leave.png"/></a>
+						</div>
 						<div class="clear"></div>            
 						<div class="grid_5 alpha omega">
 							<div class="tooltip-scroll"></div>
@@ -399,6 +402,49 @@
 						<img src="/images/graphic_sia_intro.png" alt="graphic"/>
 					</figure>
 					<div class="clear"></div>
+				</section>
+				<section class="features">
+					<div id="sia_highlights">
+                		<header class="grid_16">
+	                		<h1>Highlights</h1>
+	                	</header>
+						<div class="clear"></div>
+						<div class="grid_4 feature-detail">
+							<h1><em>One-stop-shop</em> home page.</h1>
+							<p>Contains all the most recent information of the organization.</p>
+						</div>
+						<div class="prefix_1 grid_11 feature-detail">
+							<img class="illustration" src="/images/graphic_sia_index.png" alt="graphic">
+						</div>
+						<div class="clear"></div>
+						<div class="grid_4 feature-detail">
+							<h1><em>Clean</em> form design.</h1>
+							<p>Prospect members can register online and pay membership due through Paypal. All information were saved into database, which saved all the paper application and the hassles. Relevant information were grouped together for easy input. Drop down and checkbox was utilized as well.</p>
+						</div>
+						<div class="prefix_1 grid_11 feature-detail">
+							<img class="illustration" src="/images/graphic_sia_form.png" alt="graphic">
+						</div>
+						<div class="clear"></div>
+						<div class="grid_4 feature-detail">
+							<h1><em>Awards</em> and the about page.</h1>
+							<p></p>
+						</div>
+						<div class="prefix_1 grid_11 feature-detail">
+							<img class="illustration" src="/images/graphic_sia_about.png" alt="graphic">
+						</div>
+						<div class="clear"></div>
+						<div class="grid_4 feature-detail">
+							<h1>Events List</h1>
+							<p>that come with a back end to edit it.</p>
+						</div>
+						<div class="prefix_1 grid_11 feature-detail">
+							<img class="illustration" src="/images/graphic_sia_event_front.png" alt="graphic">
+						</div>
+						<div class="clear"></div>
+						<div class="prefix_5 grid_11 feature-detail">
+							<img class="illustration" src="/images/graphic_sia_event_back.png" alt="graphic">
+						</div>
+					</div>
 				</section> 
 			</div>
 		</article>

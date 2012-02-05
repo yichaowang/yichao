@@ -374,28 +374,32 @@ YC.arrow = {
         
         arrow.filter('.detail').bind({
             mouseenter: function(){
-                var tooltip = $(this).parent().siblings('.grid_5').find('div.tooltip-scroll');
-                console.log(tooltip);
-                tooltip.stop(1).show('drop',150).bind({
-                    click: function(){
-                        $(this).stop(1).fadeOut(200);
-                    },
-                    mouseleave:function(){
-                        if (tooltip.css('display')!="none"){
-                            tooltip.stop(1).hide('drop',150);
+                var tooltip = $(this).parent().siblings('.grid_5').find('div.tooltip-scroll'); 
+                    console.log(tooltip.attr('class'));
+                if (tooltip.css('display')=='none' || tooltip.hasClass('morphing')){
+                    tooltip.stop(1,1).css('opacity',1).show('drop',150).bind({
+                        click: function(){
+                            $(this).stop(1).fadeOut(200);
+                        },
+                        mouseleave:function(){
+                            if (tooltip.css('display')!="none"){
+                                tooltip.stop(1).addClass('morphing').hide('drop',150,function(){
+                                    tooltip.removeClass('morphing')
+                                });
+                            }
                         }
-                    }
-                }); 
+                    });
+                }
             },
               
             mousedown: function(){
                 var tooltip = $(this).parent().siblings('.grid_5').find('div.tooltip-scroll');
-                tooltip.stop(1).css('background-color','#08c');
+                tooltip.stop(1,1).css('background-color','#08c');
             },
             
             mouseup: function(){
                 var tooltip = $(this).parent().siblings('.grid_5').find('div.tooltip-scroll');
-                tooltip.stop(1).animate({'background-color':"#fff"},300);
+                tooltip.animate({'background-color':"#fff"},300);
             }
         })
     },
