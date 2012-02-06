@@ -439,7 +439,7 @@ YC.arrow = {
             },
               
             mousedown: function(){
-                var tooltip = $(this).parent().siblings('.grid_5').find('div.tooltip-scroll'),
+                var tooltip = $(this).parent().siblings('.grid_5').find('div.tooltip-scroll');
                     tooltip.stop(1).fadeOut(200);
                     offset = tooltip.parents('section').next('section').offset();
                     $('html,body').animate({'scrollTop':540},1000,'easeOutExpo');
