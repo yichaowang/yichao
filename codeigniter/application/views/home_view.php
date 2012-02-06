@@ -12,7 +12,7 @@
 					   	<h1>Hello.<br>My Name is Yichao.</h1>
 						<h2>I am a web developer. <br/>I build cool stuff on the web.</h2>
 						<a class="to_portfolio" href="#">
-							Please Check Out Some of My Works.
+							Please Check Out Some of My Work.
 						</a>
 						<img class="arrow mcontent" src="/images/icon_arrow_bluecircle_solid.png"/>
 					</hgroup>
