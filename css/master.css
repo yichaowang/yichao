@@ -157,11 +157,6 @@ header#navi nav a{
     border-bottom:0px solid #fff;
 }
 
-/*header#navi nav a.active{
-    color:#fff;
-    background-color:#08c;
-} */
-
 header#navi nav a:hover{
     text-decoration:none;
 }
@@ -228,7 +223,52 @@ div#blink-slider .ui-state-default{
     background-color:#08c;
 }
 
-/*  end blink slide         */
+/*  end blink slide         */  
+
+/*  blink arrows */
+section.intro{
+    position:relative;
+}
+
+section.intro div.blink-left-null{
+    position: absolute;
+    height:40px;
+    width:40px;
+    background-image: url('/images/icon_slideshow_arrow_left.png');
+    top:430px;
+    right:100px;
+    opacity:0.1;
+}  
+
+section.intro div.blink-right-null{
+    position: absolute;
+    height:40px;
+    width:40px;
+    background-image: url('/images/icon_slideshow_arrow_right.png');
+    top:430px;
+    right:50px;
+    opacity:0.1;
+}  
+
+section.intro div.blink-left{
+    position: absolute;
+    height:40px;
+    width:40px;
+    background-image: url('/images/icon_slideshow_arrow_left.png');
+    top:430px;
+    right:100px;
+    opacity:0.2;
+}
+
+section.intro div.blink-right{
+    position: absolute;
+    height:40px;
+    width:40px;
+    background-image: url('/images/icon_slideshow_arrow_right.png');
+    top:430px;
+    right:50px;
+    opacity:0.2;
+}
 
 /*  begin main                  */     
 div#main{
@@ -244,7 +284,6 @@ div#main-mask{
     position:absolute;
     width:6720px;
     left:0px;
-/*    top:-300px;*/
 } 
 
 

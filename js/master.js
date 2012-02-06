@@ -26,6 +26,7 @@ YC.blink = {
         this.content_width = $('#main-mask').width();
         this.setSlider();
         this.setIntroHeight();
+        this.setArrow();
         
         // this.goToPage(2,1);
     },   
@@ -66,6 +67,52 @@ YC.blink = {
                 YC.navi.refreshActive((-1)*YC.blink._self.slider('value')+"px"); 
             }
         });
+    },
+    
+    setArrow: function(){           
+        $('section.intro').bind({
+            mousemove: function(){
+                var arrows = $(this).find('div.blink-left, div.blink-right');
+                    arrows.stop(1).animate({'opacity':0.4},500);
+                    clearTimeout(YC.blink.arrow_timer);
+                    YC.blink.arrow_timer = setTimeout(function(){
+                        if (!arrows.hasClass('mouseon')){
+                            arrows.animate({'opacity':0.2},500);
+                        };
+                    },1000);
+            }
+        });
+        
+        $('section.intro div.blink-right').bind({
+            click: function(){
+                YC.blink._self.slider('value',960*(YC.navi.portfolio_pos));
+                if ($(window).scrollTop() > 50){
+                    $('html,body').animate({'scrollTop':0},1000,'easeOutExpo');
+                }
+                
+            },
+            mouseenter: function(){
+                $(this).addClass('mouseon');
+            },
+            mouseleave: function(){
+                $(this).removeClass('mouseon');
+            }
+        });
+        
+        $('section.intro div.blink-left').bind({
+            click: function(){
+                YC.blink._self.slider('value',960*(YC.navi.portfolio_pos-2));
+                if ($(window).scrollTop() > 50){
+                    $('html,body').animate({'scrollTop':0},1000,'easeOutExpo');
+                }
+            },
+            mouseenter: function(){
+                $(this).addClass('mouseon');
+            },
+            mouseleave: function(){
+                $(this).removeClass('mouseon');
+            }
+        })
     },
     
     refreshSliderPosition: function(){
@@ -333,9 +380,9 @@ YC.yscroll = {
     yListener: function(){
         $(window).bind({
             scroll: function(){
-                if ($(window).scrollTop()>70){
+                if ($(window).scrollTop()>50){
                     YC.navi.transform('reader');
-                } else if ($(window).scrollTop()<71){
+                } else if ($(window).scrollTop()<51){
                     YC.navi.transform('slideshow');
                 }
             }
@@ -375,7 +422,6 @@ YC.arrow = {
         arrow.filter('.detail').bind({
             mouseenter: function(){
                 var tooltip = $(this).parent().siblings('.grid_5').find('div.tooltip-scroll'); 
-                    console.log(tooltip.attr('class'));
                 if (tooltip.css('display')=='none' || tooltip.hasClass('morphing')){
                     tooltip.stop(1,1).css('opacity',1).show('drop',150).bind({
                         click: function(){
@@ -393,13 +439,9 @@ YC.arrow = {
             },
               
             mousedown: function(){
-                var tooltip = $(this).parent().siblings('.grid_5').find('div.tooltip-scroll');
-                tooltip.stop(1,1).css('background-color','#08c');
-            },
-            
-            mouseup: function(){
-                var tooltip = $(this).parent().siblings('.grid_5').find('div.tooltip-scroll');
-                tooltip.animate({'background-color':"#fff"},300);
+                var tooltip = $(this).parent().siblings('.grid_5').find('div.tooltip-scroll'),
+                    offset = tooltip.parents('section').next('section').offset();
+                    $('html,body').animate({'scrollTop':540},1000,'easeOutExpo');
             }
         })
     },
@@ -430,7 +472,6 @@ YC.tooltip = {
     fade: function(){
         var tip = this._self;
         if (tip.css('display')!='none'){
-            console.log("the tooltip is displayed");
         }
     }
 }   
@@ -473,7 +514,6 @@ YC.mailto = {
     init: function(){      
         $('a.mailto').bind({
             click : function(){
-                console.log('asd');
                 if (confirm("Proceed to your default email application? (eg.Outlook, Mail)")){
                     window.location = "mailto:yichao@yichaowang.com";
                 } 

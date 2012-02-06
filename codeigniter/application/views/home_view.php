@@ -41,8 +41,9 @@
 						<figure class="grid_10">
 							<img src="/images/graphic_clep_intro.png" alt="graphic"/>
 						</figure>
+						<div class="blink-left-null"></div>
+						<div class="blink-right"></div>
 						<div class="clear"></div>
-						<!-- <img class='divider' src='/images/bg_section_divider.png'> -->
 					</section>
 					<section class="features">
 						<header class="grid_16">
@@ -135,6 +136,8 @@
 					<figure class="grid_10">
 						<img src="/images/graphic_rbc_intro.png" alt="graphic"/>
 					</figure>
+					<div class="blink-left"></div>
+					<div class="blink-right"></div>
 					<div class="clear"></div>
 				</section>  
 				
@@ -266,6 +269,8 @@
 					<figure class="grid_10">
 						<img src="/images/graphic_asa_intro.png" alt="rbc image"/>
 					</figure>
+					<div class="blink-left"></div>
+					<div class="blink-right"></div>
 					<div class="clear"></div>
 				</section> 
 				<section class="features">
@@ -401,6 +406,8 @@
 					<figure class="grid_10">
 						<img src="/images/graphic_sia_intro.png" alt="graphic"/>
 					</figure>
+					<div class="blink-left"></div>
+					<div class="blink-right-null"></div>
 					<div class="clear"></div>
 				</section>
 				<section class="features">
