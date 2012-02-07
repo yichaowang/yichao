@@ -489,7 +489,7 @@
 							</aside>                      
 						</section>
 						<section class="education">
-                        	B.A Information <br>System and Accounting,<br>Michigan State University (2007-2011)<br><br>GPA: Available upon request.<br>Reference: Available upon request<br>(517) 775-****
+                        	B.A Information <br>System and Accounting,<br>Michigan State University (2007-2011)<br><br>GPA: Available upon request.<br>Reference: Available upon request<br>(517) 775-0101
 						</section>
 					</div>
 					<div class="prefix_1 grid_9 right">
