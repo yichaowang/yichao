@@ -516,8 +516,8 @@
 						<section>
 							<h1>TECHNICAL SKILLS</h1>
 							<ul>
-								<li>Expert (#years): OOP JavaScript(3 years), jQuery(3 years), Git/github(3), JSON(2), HTML/CSS(6), HTML5/CSS3(2), Photoshop(5), TextMate(3), Twig-Tempting(2)</li>
-								<li>Advanced (#years): MySQL(4 years), PHP(4 years), Linux(3), CodeIgniter(1), Zend-Framework(2), Cross-Browser Development(2).</li>
+								<li>Advanced - Expert (#years): OOP JavaScript(3 years), jQuery(3 years), Git/github(3), JSON(2), HTML/CSS(6), HTML5/CSS3(2), Photoshop(5), TextMate(3), Twig-Tempting(2)</li>
+								<li>Intermediate - Advanced (#years): MySQL(4 years), PHP(4 years), Linux(3), CodeIgniter(1), Zend-Framework(2), Cross-Browser Development(2).</li>
 							</ul>
 						</section>
 						<section>
