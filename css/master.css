@@ -258,6 +258,7 @@ section.intro div.blink-left{
     top:430px;
     right:100px;
     opacity:0.2;
+    cursor:pointer;
 }
 
 section.intro div.blink-right{
@@ -268,6 +269,7 @@ section.intro div.blink-right{
     top:430px;
     right:50px;
     opacity:0.2;
+    cursor:pointer;
 }
 
 /*  begin main                  */     

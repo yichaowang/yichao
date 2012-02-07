@@ -73,7 +73,9 @@ YC.blink = {
         $('section.intro').bind({
             mousemove: function(){
                 var arrows = $(this).find('div.blink-left, div.blink-right');
-                    arrows.stop(1).animate({'opacity':0.4},500);
+                    if (!arrows.hasClass('mouseon')){
+                        arrows.stop(1).animate({'opacity':0.4},500);
+                    }
                     clearTimeout(YC.blink.arrow_timer);
                     YC.blink.arrow_timer = setTimeout(function(){
                         if (!arrows.hasClass('mouseon')){
@@ -93,9 +95,11 @@ YC.blink = {
             },
             mouseenter: function(){
                 $(this).addClass('mouseon');
+                $(this).stop(1).css('opacity',0.7);
             },
             mouseleave: function(){
                 $(this).removeClass('mouseon');
+                $(this).css('opacity',0.2);
             }
         });
         
@@ -108,9 +112,11 @@ YC.blink = {
             },
             mouseenter: function(){
                 $(this).addClass('mouseon');
+                $(this).stop(1).css('opacity',0.7);
             },
             mouseleave: function(){
                 $(this).removeClass('mouseon');
+                $(this).css('opacity',0.2);
             }
         })
     },
